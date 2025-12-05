@@ -51,6 +51,6 @@ Navier–Stokes方程式を多孔質体に適用するために修正したモ�
 
 $$
 \begin{align}
-\frac{\Delta p}{L} &= \frac{\mu}{K} u + \frac{\rho F^{2}}{\sqrt{K}}u^{2} - \mu \Nabla^{2}u \tag{2}
+\frac{\Delta p}{L} &= \frac{\mu}{K} u + \frac{\rho F^{2}}{\sqrt{K}}u^{2} - \mu {\nabla}^{2}u \tag{2}
 \end{align}
 $$
