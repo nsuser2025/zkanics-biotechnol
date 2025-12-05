@@ -16,6 +16,14 @@ $\Delta p / L$: 圧力勾配 [Pa/m]
 $\mu$: 流体動粘性係数 [Pa$\cdot$s]
 $\rho$: 流体密度 [kg/m$^{3}$]
 $\epsilon$: 空隙率（0.36-0.40）
-$D_{p}$: ペレット代表粒径
-$u$: 表面流速（superficial velocity）$u \equiv$ 体積流量/断面積 [m/s]
+$D_{p}$: ペレット代表粒径 [m]
+$u$: 表面流速（superficial velocity）$\equiv$ 体積流量/断面積 [m/s]
 
+---
+### 充填層を形成する固体粒子形状
+
+<p>
+穴が開いた充填物を通る流れ
+1. 
+2. 
+</p>
