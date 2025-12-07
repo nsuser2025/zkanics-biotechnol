@@ -207,7 +207,7 @@ $$
 \begin{align}
 \nabla_{{\bf k}'} \ket{\psi_{{\bf k}'m}}
 = \nabla_{{\bf k}'} ~(\exp(i{\bf k}'\cdot{\bf r}) \ket{u_{{\bf k}'m}})
-= i~{\bf r}\ket{\psi_{{\bf k}'m}}+\exp(i{\bf k}'\cdot{\bf r}) \nabla_{{\bf k}'} \ket{u_{{\bf k}'m}}
+= i{\bf r}\ket{\psi_{{\bf k}'m}}+\exp(i{\bf k}'\cdot{\bf r}) \nabla_{{\bf k}'} \ket{u_{{\bf k}'m}}
 \end{align}
 $$
 
