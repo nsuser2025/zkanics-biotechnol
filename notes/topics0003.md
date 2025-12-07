@@ -188,15 +188,17 @@ e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}\cdot{\bf R}'}
 %where $\hat {\bf r}$ is position operator 
 %(Eq.(23) of Marzari2012).
 
+---
+
 #### Blount Identity
 
-\begin{eqnarray}
-\hat{\bf r} \ket{{\bf 0}m}
-&=& {\bf r} \ket{{\bf 0}m} \nonumber \\
-&=& \frac{V}{(2\pi)^{3}} \int_{\rm BZ}
-d{\bf k}' {\bf r}\ket{\psi_{{\bf k}'m}} 
-\label{eq:Deriv_Step1}
-\end{eqnarray}
+$$
+\begin{align}
+\hat{\bf r} \ket{{\bf 0}m} &= {\bf r} \ket{{\bf 0}m} \\
+&= \frac{V}{(2\pi)^{3}} \int_{\rm BZ} d{\bf k}' ~{\bf r}\ket{\psi_{{\bf k}'m}} 
+\end{align}
+$$
+
 The gradient of the Bloch orbital with respect to ${\bf k}$ is
 \begin{eqnarray}
 \nabla_{{\bf k}'} \ket{\psi_{{\bf k}'m}}
