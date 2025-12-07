@@ -216,12 +216,10 @@ Solvint Eq. \ref{eq:Deriv_Step2} yields
 </p>
 
 $$
-\begin{eqnarray}
-{\bf r}\ket{\psi_{{\bf k}'m}}
-&=& i\exp(i{\bf k}'\cdot{\bf r})\nabla_{{\bf k}'}
+\begin{align}
+{\bf r}\ket{\psi_{{\bf k}'m}} = i\exp(i{\bf k}'\cdot{\bf r})\nabla_{{\bf k}'}
 \ket{u_{{\bf k}'m}}-i\nabla_{{\bf k}'}\ket{\psi_{{\bf k}'m}}.
-\label{eq:Deriv_Step3}
-\end{eqnarray}
+\end{align}
 $$
 
 <p>
