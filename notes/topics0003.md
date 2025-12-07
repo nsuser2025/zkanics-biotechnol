@@ -265,7 +265,7 @@ the relation used in Blount1962 is obtained.
 
 $$
 \begin{align}
-\int (\nabla \phi) \enskip d{\bf V} &= \int ({\phi}{\bf n}) ~d{\bf S}.
+\int (\nabla \phi) ~d{\bf V} &= \int ({\phi}{\bf n}) ~d{\bf S}.
 \end{align}
 $$
 
