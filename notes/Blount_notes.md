@@ -1,84 +1,213 @@
-### Vitelli2024_Biochem.Eng.J.vol202.109181
+### Blount Identity
 
 <p>
-Population Balance Model（PBM）は、細胞集団の成長および酸化ストレスに関する時間的な変化を記述するために構築された。
-フローサイトメトリーのデータを用いて、細胞サイズや細胞内代謝物濃度といった重要な量が、
-細胞集団全体でどのように分布しているかについての知見を得た。B. pertussis（百日咳菌）のシェイクフラスコ培養において、
-細胞サイズおよび細胞内のグルタミン酸、ROS、NADPH、NADP⁺ 濃度の分布を予測するために、
-人口バランスー酸化ストレス結合モデルが開発された。
-PBM を使用する大きな利点は、分布を考慮し、バルク（平均化した）モデルでは平均化されてしまう実験条件に対する、
-細胞集団の不均一性（ヘテロジニティ）を予測できる点にある。結合モデルとバルク酸化ストレスモデルを比較すると、
-PBM のほうが細胞内 ROS 濃度の予測精度がはるかに高いことが明らかである。
-著者らは、細胞増殖と酸化ストレスの非線形関係により、細胞内および細胞表面の量は、
-PBMのほうがより適切にモデル化できると考えている。  
+Bloch function is expressed as follows
+\begin{eqnarray}
+\psi_{n{\bf k}}({\bf r})
+&=& e^{i{\bf k}\cdot{\bf r}}u_{n{\bf k}}
+({\bf r}) \label{eq:bloch_function}
+\end{eqnarray}
+where $u_{n{\bf k}}$ has the periodicity of Hamiltonian.
+Bloch functions are normalized to one unit cell
+\begin{eqnarray}
+\int_{V} d{\bf r}\hspace{0.5mm} 
+\psi^{*}_{m{\bf k}}({\bf r})\psi_{n{\bf k}}({\bf r})
+&=& \delta_{mn}, 
+\label{eq:bloch_norm_01}
+\end{eqnarray}
+where $V$ is the real-space primitive cell volume.
+When the number of the primitive cell in the supercell is $N$,
+the volume of the supercell, $V_{\rm all}$, is $V_{\rm all}=NV$.
+Bra-ket notation in this paper is related to 
+Bloch functions as follows, 
+\begin{eqnarray}
+\ket{\psi_{n{\bf k}}}
+&=& \int d{\bf r} \hspace{0.5mm} \psi_{n{\bf k}}({\bf r}) \ket{\bf r}. \label{eq:braket_ryo}
+\end{eqnarray}
+This notation is different from one in Ref.~\cite{PhysRevB.56.12847}.
+\begin{eqnarray}
+\braket{\psi_{m{\bf k}}|\psi_{n{\bf k}'}}
+&=& \int d{\bf r} \int d{\bf r}' \hspace{0.5mm} 
+    \psi^{*}_{m{\bf k}}({\bf r})
+    \psi_{n{\bf k}'}({\bf r}') 
+    \braket{{\bf r}|{\bf r}'}  \nonumber \\
+&=& \int d{\bf r} \int d{\bf r}' \hspace{0.5mm} 
+    \psi^{*}_{m{\bf k}}({\bf r})
+    \psi_{n{\bf k}'}({\bf r}') 
+    \delta({\bf r}-{\bf r}') \nonumber \\
+&=& \int d{\bf r} \hspace{0.5mm} 
+    \psi^{*}_{m{\bf k}}({\bf r})
+    \psi_{n{\bf k}'}({\bf r}) \nonumber \\
+&=& \sum_{\bf R} \int_{V} d{\bf r} \hspace{0.5mm}
+    \psi^{*}_{m{\bf k}}({\bf r}+{\bf R})
+    \psi_{n{\bf k}'}({\bf r} + {\bf R}) \nonumber \\
+&=& \sum_{\bf R} e^{i({\bf k}'-{\bf k})\cdot{\bf R}}
+    \int_{V} d{\bf r} \psi^{*}_{m{\bf k}}({\bf r})
+    \psi_{n{\bf k}'}({\bf r}) \nonumber \\
+&=& N \delta_{{\bf kk'}}\delta_{mn} \nonumber \\
+&=& \frac{(2\pi)^{3}}{V} \delta({\bf k}-{\bf k}')\delta_{mn} 
+    \label{eq:braket_norm}
+\end{eqnarray}
+When deriving Eq.~\ref{eq:braket_norm}, the following property 
+of Bloch function is used.
+\begin{eqnarray}
+\psi_{n{\bf k}}({\bf r}+{\bf R}) 
+&=& e^{i{\bf k}\cdot{\bf R}} \psi_{n{\bf k}}({\bf r})
+\label{eq:bloch_property}
+\end{eqnarray}
+Kronecker delta formula is expressed as,
+\begin{eqnarray}
+\frac{1}{N} \sum_{\bf R} e^{i({\bf k}'-{\bf k})\cdot{\bf R}} 
+&=& \delta_{{\bf kk}'} 
+\label{eq:Kronecker_delta}
+\end{eqnarray}
+Kronecker delta is switched to Dirac delta function using the following correspondence,
+\begin{eqnarray}
+\sum_{\bf k} \delta_{{\bf kk}'}
+= 1 &\rightarrow& \int d{\bf k} \delta({\bf k}-{\bf k}') = 1 \nonumber \\
+\frac{1}{\Delta k_{x} \Delta k_{y} \Delta k_{z}}
+\sum_{\bf k} \delta_{{\bf kk}'} \Delta k_{x} \Delta k_{y} \Delta k_{z} 
+&=& \sum_{\bf k} \frac{V_{\rm all}}{(2\pi)^{3}} \delta_{{\bf kk}'} \Delta {\bf k} \nonumber \\
+\frac{V_{\rm all}}{(2\pi)^{3}} \delta_{{\bf kk}'} 
+= \frac{NV}{(2\pi)^{3}} \delta_{{\bf kk}'} &\rightarrow& \delta({\bf k}-{\bf k}')  \nonumber \\
+N \delta_{{\bf kk}'} &\rightarrow& \frac{(2\pi)^{3}}{V} \delta({\bf k}-{\bf k}')
+\label{eq:Kronecker_dirac_delta}
+\end{eqnarray}
+
+\section{Bra-ket notation of Marzari et al. \cite{PhysRevB.56.12847}}
+Bra-ket notation is sometimes written as~\cite{PhysRevB.56.12847}
+\begin{eqnarray}
+\ket{\psi_{n{\bf k}}}
+&=& e^{i{\bf k}\cdot{\bf r}} \ket{u_{n{\bf k}}}.
+\label{eq:braket_marzari}
+\end{eqnarray}
+This notation leads to the inconsistent with Eq.~\ref{eq:braket_ryo}
+\begin{eqnarray}
+\ket{\psi_{n{\bf k}'}}
+&=& \int d{\bf r} \hspace{0.5mm} \psi_{n{\bf k}}({\bf r}) \ket{\bf r} \nonumber \\
+&=& \int d{\bf r} \hspace{0.5mm} e^{i{\bf k}\cdot{\bf r}}u_{n{\bf k}}({\bf r}) \ket{\bf r} \nonumber \\
+&\neq& e^{i{\bf k}\cdot{\bf r}}
+\int d{\bf r} \hspace{0.5mm} u_{n{\bf k}}({\bf r}) \ket{\bf r}
+=e^{i{\bf k}\cdot{\bf r}}\ket{u_{n{\bf k}}}
+\label{eq:inconsistency_of_marzari}
+\end{eqnarray}
+We, thus, employ the bra-ket notation of Eq.~\ref{eq:braket_ryo}
+for the formulation of Wannier functions.
+
+\section{Wannier function}
+Wannier functions are constructed through the Fourier transform of 
+Bloch functions,
+(Eq.(3) of Marzari2012),
+\begin{eqnarray}
+\ket{{\bf R}n} 
+&=& \frac{V}{(2\pi)^{3}}\int_{\rm BZ}
+e^{-i{\bf k}\cdot{\bf R}} \ket{\psi_{{\bf k}n}}, \\
+&=& \frac{1}{N} {\sum_{\bf k}}' e^{-i{\bf k}\cdot{\bf R}} \ket{\psi_{n{\bf k}}}
+\label{eq:wannier_function}
+\end{eqnarray}
+where the integral is carried over the Brillouin zone (BZ).
+Normalization of the Wannier functions is checked as, 
+\begin{eqnarray}
+\braket{{\bf R}m|{\bf R}'n} 
+&=& \int d{\bf r} \hspace{0.5mm} \braket{{\bf R}m|{\bf r}}
+\braket{{\bf r}|{\bf R}'n} \nonumber \\
+&=& \biggl(\frac{1}{N}\biggr)^{2} 
+{\sum_{{\bf kk}'}}' e^{-i{\bf k}\cdot {\bf R}}
+e^{i{\bf k}'\cdot{\bf R}'} \int d{\bf r}\hspace{0.5mm}
+\braket{\psi_{m{\bf k}}|{\bf r}}\braket{{\bf r}|\psi_{m{\bf k}'}} \nonumber \\
+&=& \biggl(\frac{1}{N}\biggr)^{2} {\sum_{{\bf kk}'}}'
+e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}'\cdot{\bf R}'}
+N\delta_{mn}\delta_{{\bf kk}'} \nonumber \\
+&=& \frac{1}{N} {\sum_{{\bf k}}}'
+e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}\cdot{\bf R}'}
+\delta_{mn} = \delta_{mn}\delta_{{\bf RR}'}
+\label{eq:wannier_function_norm}
+\end{eqnarray}
+
+%The following formula derived by Blount, 
+%called Blount identity, 
+%is necessary for the determination of Maximally 
+%localized Wannier functions (MLWFs).
+%\begin{eqnarray}
+%\braket{{\bf R}n|\hat {\bf r}|{\bf 0}m}
+%&=& i \frac{V}{(2\pi)^{3}} \int_{\rm BZ} d{\bf k}
+%\exp(i{\bf k}\cdot{\bf R})
+%\braket{u_{{\bf k}n}|\nabla_{\bf k}|u_{{\bf k}m}},
+%\label{eq:BlountIdentity}
+%\end{eqnarray}
+%where $\hat {\bf r}$ is position operator 
+%(Eq.(23) of Marzari2012).
+
+\section{Blount Identity}
+
+\begin{eqnarray}
+\hat{\bf r} \ket{{\bf 0}m}
+&=& {\bf r} \ket{{\bf 0}m} \nonumber \\
+&=& \frac{V}{(2\pi)^{3}} \int_{\rm BZ}
+d{\bf k}' {\bf r}\ket{\psi_{{\bf k}'m}} 
+\label{eq:Deriv_Step1}
+\end{eqnarray}
+The gradient of the Bloch orbital with respect to ${\bf k}$ is
+\begin{eqnarray}
+\nabla_{{\bf k}'} \ket{\psi_{{\bf k}'m}}
+&=& \nabla_{{\bf k}'} (\exp(i{\bf k}'\cdot{\bf r}) 
+\ket{u_{{\bf k}'m}}) 
+\nonumber \\
+&=& i{\bf r}\ket{\psi_{{\bf k}'m}}+\exp(i{\bf k}'\cdot{\bf r})
+\nabla_{{\bf k}'} \ket{u_{{\bf k}'m}}.
+\label{eq:Deriv_Step2}
+\end{eqnarray}
+Solvint Eq. \ref{eq:Deriv_Step2} yields
+\begin{eqnarray}
+{\bf r}\ket{\psi_{{\bf k}'m}}
+&=& i\exp(i{\bf k}'\cdot{\bf r})\nabla_{{\bf k}'}
+\ket{u_{{\bf k}'m}}-i\nabla_{{\bf k}'}\ket{\psi_{{\bf k}'m}}.
+\label{eq:Deriv_Step3}
+\end{eqnarray}
+And Eq. \ref{eq:Deriv_Step1} becomes
+\begin{eqnarray}
+{\bf r} \ket{{\bf 0}m} 
+&=& \frac{V}{(2\pi)^{3}} \int_{\rm BZ}
+d{\bf k}' \biggl\{
+i\exp(i{\bf k}'\cdot{\bf r})\nabla_{{\bf k}'}
+\ket{u_{{\bf k}'m}}-i\nabla_{{\bf k}'}\ket{\psi_{{\bf k}'m}}
+\biggr\}.
+\label{eq:Deriv_Step4}
+\end{eqnarray}
+We focus our attention on 
+the first term in Eq.~\ref{eq:Deriv_Step4}
+since the 2nd term is expected to be zero.
+
+\section{Divergence Theorem}
+For arbitrary vector ${\bf a}$, the divergence
+theorem is expressed as follows,
+\begin{eqnarray}
+\int (\nabla \cdot {\bf a}) \enskip d{\bf V}
+&=& \int ({\bf a}\cdot {\bf n}) \enskip d{\bf S}
+\label{eq:divergence_theorem}
+\end{eqnarray}
+where ${\bf n}$ is the outward-pointing normal.
+We can define the vector ${\bf a}$ as $\phi{\bf b}$,
+where $\phi$ and ${\bf b}$ are a scalar function 
+and constant vector, respectively.
+Then Eq.~\ref{eq:divergence_theorem} 
+becomes,
+\begin{eqnarray}
+{\bf b} \cdot 
+\int (\nabla \phi) \enskip d{\bf V}
+&=& {\bf b} \cdot \int ({\phi}{\bf n}) 
+\enskip d{\bf S}.
+\label{eq:divergence_theorem_2}
+\end{eqnarray}
+From Eq.~\ref{eq:divergence_theorem_2},
+the relation used in Blount1962 is obtained.
+\begin{eqnarray}
+\int (\nabla \phi) \enskip d{\bf V}
+&=& \int ({\phi}{\bf n}) 
+\enskip d{\bf S}.
+\label{eq:divergence_theorem_3}
+\end{eqnarray}
+
 </p>
-
----
-
-### Toscano2025_NPJ.Syst.Biol.Appl.vol11.48
-
-<p>
-In silico（インシリコ）シミュレーションは、細胞の挙動を理解するために用いられ、
-平均的な集団挙動を再現する方法から、格子ベースのモデル、さらには近年では、
-質量・体積・形態が一定のルールやモデルに基づいて変化する個々の細胞エージェントの集団
-（エージェントベースモデル）を構築する方法まで、さまざまなアプローチとツールが存在する。
-本研究では、SimulCell と名付けられた新しいエージェントベースシミュレータを考案・開発し、
-平面表面に付着して増殖する真核細胞培養の挙動を予測するために使用した。
-このシステムは、タイムラプス顕微鏡実験を基に、増殖・分裂・移動のモデルを利用して、
-元の細胞培養をよく再現した人工的な細胞集団（シンセティックポピュレーション）を作り出す。
-細胞同士および細胞と環境の相互作用をサポートしており、細胞エージェントは培地組成の変化や、
-物理的損傷、化学的変化など、培養プレート内で生じるイベントに反応することができる。
-このシミュレータはウェブアプリケーションを通じて利用可能であり、生成されたデータは表やグラフとして表示したり、
-さらなる解析のためにエクスポートすることもできる。  
-</p>
-
----
-
-### Maradkhani2021_J.Mater.Sci.Mater.Med.vol32.84
-
-<p>
-in vitro および in vivo 条件下で機械刺激が幹細胞に及ぼす影響を調べることは、
-増殖、分化といった細胞応答をよりよく制御するために極めて重要な課題である。
-この観点から、本研究の主な目的は、足場（スキャフォールド）の幾何学形状、定常および非定常の流体流れ、
-さらに足場内の異なる位置に存在する細胞が受ける有効な機械刺激に対する影響を明らかにすることである。
-この目的のために、本研究ではコラーゲンベースのスキャフォールドを用い、細孔構造の暗黙的（implicit）
-表現を使用した。計算シミュレーションには、数値流体力学（CFD）と流体–構造連成解析（FSI） を用いた。
-結果として、スキャフォールドの微細構造と細孔アーキテクチャが、流体がスキャフォールド内のさまざまな部分へ
-到達できるかどうかに本質的な影響を与えることが明らかとなった。
-これにより、酸素や成長因子の輸送、さらには細胞–スキャフォールド相互作用における力学的応答を最適化するために、
-異なる表面でのせん断応力および流体力学的圧力を最適化できる。
-さらに、結果は HP（Hybrid Pore）スキャフォールドが、Gyroid や IWP スキャフォールドよりも
-幹細胞培養に適した表面を提供することを示した。
-HPスキャフォールドに振動（オシレーション）流れを加えた場合、
-HPスキャフォールド全体の表面が 0.1～40 mPa のせん断応力にさらされ、
-スキャフォールド内の流体力学的因子は均一であった。
-本研究の結果は、実験研究者が幹細胞培養における最適な流体条件および
-適切な環境を選択する際の指針として活用できる。 
-</p>
-
----
-
-### Scholz2024_Chem.Eng.Res.Des.vol208.674
-
-<p>
-本研究では、ヒト人工多能性幹細胞（hiPS細胞）の強制対流連続凍結プロセスの設計を、計算流体力学（CFD）
-モデルに基づいて行い、細胞外液の過冷却を考慮した。
-全体モデルは以下で構成される：
-CFDモデル：速度場および熱伝達計算を行い、過冷却の影響を含む
-細胞層モデル：細胞生存率の計算を行う
-実験的な温度プロファイルは、強制対流型バッチフリーザーを用いて取得され、熱伝達および固化モデルの妥当性検証が行われた。
-実験条件は、冷却速度 1.0 K/min、入口流速 2.0 m/s で実施された。
-モデルは、10列、20列、30列の棚を持つ3種類のフリーザーサイズに適用された。
-適用した冷却液入口流速は 0.50 m/s ～ 4.0 m/s の範囲で検討された。
-その結果、入口流速 3.0 m/s の条件で、フリーザー内での細胞生存率の平均が 0.934 となり、
-かつ生存率の不均一性（ヘテロジニティ）が低いことがわかった。
-この結果により、hiPS細胞の凍結プロセスは、従来使用されている装置と比較して
-最大で約170倍のスケールで拡大できる可能性が示された。  
-</p>
-
----
-
-### 要ダウンロード
-https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/bit.22405
 
 ---
