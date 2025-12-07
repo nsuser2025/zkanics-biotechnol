@@ -122,8 +122,8 @@ This notation leads to the inconsistent with Eq.（3）.
 
 $$
 \begin{align}
-\ket{\psi_{n{\bf k}'}} &= \int d{\bf r} ~\psi_{n{\bf k}}({\bf r}) \ket{\bf r} \\\\
-&= \int d{\bf r} ~e^{i{\bf k}\cdot{\bf r}}u_{n{\bf k}}({\bf r}) \ket{\bf r} \\\\
+\ket{\psi_{n{\bf k}'}} &= \int d{\bf r} ~\psi_{n{\bf k}}({\bf r}) \ket{\bf r}
+= \int d{\bf r} ~e^{i{\bf k}\cdot{\bf r}}u_{n{\bf k}}({\bf r}) \ket{\bf r} \\\\
 &\neq e^{i{\bf k}\cdot{\bf r}}
 \int d{\bf r} ~u_{n{\bf k}}({\bf r}) \ket{\bf r} = e^{i{\bf k}\cdot{\bf r}}\ket{u_{n{\bf k}}}
 \end{align}
