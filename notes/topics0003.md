@@ -1,4 +1,4 @@
-### Bra-Ket Notation
+#### Bra-Ket Notation
 
 <p>
 Bloch function is expressed as follows
@@ -117,7 +117,7 @@ Bra-ket notation is sometimes written as$^{1}$
 \end{eqnarray}
 
 <p>
-This notation leads to the inconsistent with Eq.~\ref{eq:braket_ryo}    
+This notation leads to the inconsistent with Eq.（3）.  
 </p>
 
 $$
@@ -135,10 +135,15 @@ $$
 We, thus, employ the bra-ket notation of Eq.~\ref{eq:braket_ryo}
 for the formulation of Wannier functions.
 
-\section{Wannier function}
+---
+
+#### Wannier function
+
+<p>
 Wannier functions are constructed through the Fourier transform of 
-Bloch functions,
-(Eq.(3) of Marzari2012),
+Bloch functions, (Eq.(3) of Marzari2012),    
+</p>
+
 \begin{eqnarray}
 \ket{{\bf R}n} 
 &=& \frac{V}{(2\pi)^{3}}\int_{\rm BZ}
@@ -146,8 +151,12 @@ e^{-i{\bf k}\cdot{\bf R}} \ket{\psi_{{\bf k}n}}, \\
 &=& \frac{1}{N} {\sum_{\bf k}}' e^{-i{\bf k}\cdot{\bf R}} \ket{\psi_{n{\bf k}}}
 \label{eq:wannier_function}
 \end{eqnarray}
+
+<p>
 where the integral is carried over the Brillouin zone (BZ).
-Normalization of the Wannier functions is checked as, 
+Normalization of the Wannier functions is checked as,     
+</p>
+
 \begin{eqnarray}
 \braket{{\bf R}m|{\bf R}'n} 
 &=& \int d{\bf r} \hspace{0.5mm} \braket{{\bf R}m|{\bf r}}
@@ -179,7 +188,7 @@ e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}\cdot{\bf R}'}
 %where $\hat {\bf r}$ is position operator 
 %(Eq.(23) of Marzari2012).
 
-\section{Blount Identity}
+#### Blount Identity
 
 \begin{eqnarray}
 \hat{\bf r} \ket{{\bf 0}m}
@@ -219,7 +228,10 @@ We focus our attention on
 the first term in Eq.~\ref{eq:Deriv_Step4}
 since the 2nd term is expected to be zero.
 
-\section{Divergence Theorem}
+---
+
+#### Divergence Theorem
+
 For arbitrary vector ${\bf a}$, the divergence
 theorem is expressed as follows,
 \begin{eqnarray}
