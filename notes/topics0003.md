@@ -87,7 +87,12 @@ Kronecker delta is switched to Dirac delta function using the following correspo
 
 $$
 \begin{align}
-\sum_{\bf k} \delta_{{\bf kk}'} = 1 &\rightarrow& \int d{\bf k} \delta({\bf k}-{\bf k}') = 1 \\\\
+\sum_{\bf k} \delta_{{\bf kk}'} = 1 &\rightarrow& \int d{\bf k} \delta({\bf k}-{\bf k}') = 1 
+\end{align}
+$$
+
+$$
+\begin{align}
 \frac{1}{\Delta k_{x} \Delta k_{y} \Delta k_{z}}
 \sum_{\bf k} \delta_{{\bf kk}'} \Delta k_{x} \Delta k_{y} \Delta k_{z} 
 &=& \sum_{\bf k} \frac{V_{\rm all}}{(2\pi)^{3}} \delta_{{\bf kk}'} \Delta {\bf k} \nonumber \\
