@@ -2,6 +2,7 @@
 
 <p>
 Pair potentialが $u(r_{1},r_{2},\theta_{12})$ のときのIOZ方程式
+(Ref. Attard1989_J.Chem.Phys.vol91.3072)
 </p>
 
 $$
