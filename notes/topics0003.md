@@ -245,13 +245,12 @@ $$
 {\bf r} \ket{{\bf 0}m} &= \frac{V}{(2\pi)^{3}} \int_{\rm BZ} d{\bf k}' 
 \lbrace 
 i\exp(i{\bf k}'\cdot{\bf r}) \nabla_{{\bf k}'}\ket{u_{{\bf k}'m}}-i\nabla_{{\bf k}'}\ket{\psi_{{\bf k}'m}}
-\rbrace
+\rbrace \tag{12}
 \end{align}
 $$
 
 <p>
-We focus our attention on 
-the first term in Eq.~\ref{eq:Deriv_Step4}
+We focus our attention on the first term in Eq. (12)
 since the 2nd term is expected to be zero.    
 </p>
 
@@ -266,7 +265,7 @@ theorem is expressed as follows,
 
 $$
 \begin{align}
-\int (\nabla \cdot {\bf a}) ~d{\bf V} &= \int ({\bf a}\cdot {\bf n}) ~d{\bf S}
+\int (\nabla \cdot {\bf a}) ~d{\bf V} &= \int ({\bf a}\cdot {\bf n}) ~d{\bf S} \tag{13}
 \end{align}
 $$
 
@@ -281,7 +280,7 @@ becomes,
 
 $$
 \begin{align}
-{\bf b} \cdot \int (\nabla \phi) ~d{\bf V} &= {\bf b} \cdot \int ({\phi}{\bf n}) ~d{\bf S}.
+{\bf b} \cdot \int (\nabla \phi) ~d{\bf V} &= {\bf b} \cdot \int ({\phi}{\bf n}) ~d{\bf S} \tag{14}
 \end{align}
 $$
 
@@ -292,7 +291,7 @@ the relation used in Blount1962 is obtained.
 
 $$
 \begin{align}
-\int (\nabla \phi) ~d{\bf V} &= \int ({\phi}{\bf n}) ~d{\bf S}.
+\int (\nabla \phi) ~d{\bf V} &= \int ({\phi}{\bf n}) ~d{\bf S} \tag{15}
 \end{align}
 $$
 
