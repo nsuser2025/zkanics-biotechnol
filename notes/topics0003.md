@@ -165,8 +165,12 @@ $$
 \begin{align}
 \braket{{\bf R}m|{\bf R}'n} 
 &= \int d{\bf r} ~\braket{{\bf R}m|{\bf r}} \braket{{\bf r}|{\bf R}'n}
+= \biggl(\frac{1}{N}\biggr)^{2} {\sum_{{\bf kk}'}}' e^{-i{\bf k}\cdot {\bf R}}
+e^{i{\bf k}'\cdot{\bf R}'} \int d{\bf r} ~\braket{\psi_{m{\bf k}}|{\bf r}}\braket{{\bf r}|\psi_{m{\bf k}'}}
 \end{align}
+$$
 
+$$
 \begin{align}
 &=& \biggl(\frac{1}{N}\biggr)^{2} 
 {\sum_{{\bf kk}'}}' e^{-i{\bf k}\cdot {\bf R}}
