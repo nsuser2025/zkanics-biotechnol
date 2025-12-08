@@ -40,13 +40,12 @@ $$
 &= \int d{\bf r} \int d{\bf r}' ~\psi^{\ast}\_{m{\bf k}}({\bf r}) 
    \psi\_{n{\bf k}'}({\bf r}') \braket{{\bf r}|{\bf r}'} \\\\
 &= \int d{\bf r} \int d{\bf r}' \psi^{\ast}\_{m{\bf k}}({\bf r})
-   \psi\_{n{\bf k}'}({\bf r}') \delta({\bf r}-{\bf r}')
+   \psi\_{n{\bf k}'}({\bf r}') \delta({\bf r}-{\bf r}') \\\\
+&= \int d{\bf r} ~\psi^{\ast}_{m{\bf k}}({\bf r}) \psi_{n{\bf k}'}({\bf r}) \\\\   
 \end{align}
 $$
 
 \begin{eqnarray}
-&= \int d{\bf r} \int d{\bf r}' ~\psi^{*}\_{m{\bf k}}({\bf r})
-   \psi\_{n{\bf k}'}({\bf r}') \delta({\bf r}-{\bf r}')   
 &= \int d{\bf r} \int d{\bf r}' ~\psi^{*}_{m{\bf k}}({\bf r})
    \psi_{n{\bf k}'}({\bf r}') \delta({\bf r}-{\bf r}') \\\\
 &= \int d{\bf r} ~\psi^{*}_{m{\bf k}}({\bf r}) \psi_{n{\bf k}'}({\bf r}) \\\\
