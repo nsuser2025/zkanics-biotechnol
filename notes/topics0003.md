@@ -173,13 +173,14 @@ $$
  = \delta\_{mn}\delta\_{{\bf RR}'}
 \end{align}
 $$
-
+\color{red}{
 <p>
 The following formula derived by Blount, 
 called Blount identity, 
 is necessary for the determination of Maximally 
 localized Wannier functions (MLWFs).   
 </p>
+}
 
 $$
 \begin{align}
