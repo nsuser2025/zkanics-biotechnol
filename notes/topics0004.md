@@ -95,9 +95,9 @@ $$
 ~\color{red}{P\_{n}(x\_{2})P\_{j}(x\_{2})P\_{i}(x\_{3})P\_{j}(x\_{3})} \\\\ \\\\
 &= \frac{2n+1}{2} \int^{\infty}\_{0} dr\_{3} ~r^{2}\_{3} \int^{2\pi}\_{0} d\phi\_{3}
 ~\hat c\_{n}(r\_{1},r\_{3}) ~\rho(r\_{3}) ~\hat h\_{n}(r\_{3},r\_{2})
-\color{green}{\biggl(\frac{2}{2n+1}\biggr)^{2}} \\\\
+\color{green}{\biggl(\frac{2}{2n+1}\biggr)^{2}} \\\\ \\\\
 &= \frac{4\pi}{2n+1} \int^{\infty}\_{0} dr\_{3} ~r^{2}\_{3} 
-~\hat c\_{n}(r\_{1},r\_{3}) ~\rho(r\_{3}) ~\hat h\_{n}(r\_{3},r\_{2})
+~\hat c\_{n}(r\_{1},r\_{3}) ~\rho(r\_{3}) ~\hat h\_{n}(r\_{3},r\_{2}) \tag{9}
 \end{align}
 $$
 
@@ -112,7 +112,7 @@ $$
 \begin{align}
 P\_{j}(x\_{32})
 &= P\_{j}(x\_{2})P\_{j}(x\_{3}) + 2 \sum^{j}\_{m=-j}
-\frac{(j-m)!}{(j+m)!} P^{m}\_{j}(x\_{2})P^{m}\_{j}(x\_{3}) \cos m\phi\_{3} \tag{9}
+\frac{(j-m)!}{(j+m)!} P^{m}\_{j}(x\_{2})P^{m}\_{j}(x\_{3}) \cos m\phi\_{3} \tag{10}
 \end{align}
 }
 $$
