@@ -43,7 +43,9 @@ t(r\_{1},r\_{2},x\_{2})
 $$
 
 <p>
+<span style="color:blue">
 Legendre多項式展開  
+</span>  
 </p>
 
 $$
