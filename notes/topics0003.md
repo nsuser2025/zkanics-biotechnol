@@ -123,7 +123,7 @@ $$
 $$
 
 <p>
-This notation leads to the inconsistent with Eq.（3）.
+This notation leads to the inconsistent with Eq. (3).
 </p>
 
 $$
@@ -136,8 +136,7 @@ $$
 $$
 
 <p>
-We, thus, employ the bra-ket notation of Eq. XXX   
-for the formulation of Wannier functions.    
+We, thus, employ the bra-ket notation of Eq. (3) for the formulation of Wannier functions.    
 </p>
 
 ---
@@ -146,16 +145,16 @@ for the formulation of Wannier functions.
 
 <p>
 Wannier functions are constructed through the Fourier transform of 
-Bloch functions, (Eq.(3) of Marzari2012),    
+Bloch functions, (Eq. (3) of Marzari2012),    
 </p>
 
-\begin{eqnarray}
+$$
+\begin{align}
 \ket{{\bf R}n} 
-&=& \frac{V}{(2\pi)^{3}}\int_{\rm BZ}
-e^{-i{\bf k}\cdot{\bf R}} \ket{\psi_{{\bf k}n}}, \\
-&=& \frac{1}{N} {\sum_{\bf k}}' e^{-i{\bf k}\cdot{\bf R}} \ket{\psi_{n{\bf k}}}
-\label{eq:wannier_function}
-\end{eqnarray}
+&= \frac{V}{(2\pi)^{3}}\int_{\rm BZ} e^{-i{\bf k}\cdot{\bf R}} \ket{\psi_{{\bf k}n}} \\\\
+&= \frac{1}{N} {\sum_{\bf k}}' e^{-i{\bf k}\cdot{\bf R}} \ket{\psi_{n{\bf k}}}
+\end{align}
+$$
 
 <p>
 where the integral is carried over the Brillouin zone (BZ).
