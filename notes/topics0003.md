@@ -174,28 +174,26 @@ $$
 \end{align}
 $$
 
+<p>
+The following formula derived by Blount, 
+called Blount identity, 
+is necessary for the determination of Maximally 
+localized Wannier functions (MLWFs).   
+</p>
+
 $$
 \begin{align}
-&=& \frac{1}{N} {\sum_{{\bf k}}}'
-e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}\cdot{\bf R}'}
-\delta_{mn} = \delta_{mn}\delta_{{\bf RR}'}
-\label{eq:wannier_function_norm}
+\braket{{\bf R}n|\hat {\bf r}|{\bf 0}m}
+&= i \frac{V}{(2\pi)^{3}} \int_{\rm BZ} d{\bf k} \exp(i{\bf k}\cdot{\bf R})
+   \braket{u_{{\bf k}n}|\nabla_{\bf k}|u_{{\bf k}m}}
 \end{align}
 $$
 
-%The following formula derived by Blount, 
-%called Blount identity, 
-%is necessary for the determination of Maximally 
-%localized Wannier functions (MLWFs).
-%\begin{eqnarray}
-%\braket{{\bf R}n|\hat {\bf r}|{\bf 0}m}
-%&=& i \frac{V}{(2\pi)^{3}} \int_{\rm BZ} d{\bf k}
-%\exp(i{\bf k}\cdot{\bf R})
-%\braket{u_{{\bf k}n}|\nabla_{\bf k}|u_{{\bf k}m}},
-%\label{eq:BlountIdentity}
-%\end{eqnarray}
-%where $\hat {\bf r}$ is position operator 
-%(Eq.(23) of Marzari2012).
+<p>
+where $\hat {\bf r}$ is position operator 
+(Eq.(23) of Marzari2012).   
+</p>
+
 
 ---
 
