@@ -14,7 +14,14 @@ $$
 
 ---
 
-#### Reference
+#### IOZのLegendre多項式展開
+
+<p>
+$\theta_{1} = 0$, $\phi_{1} = 0$, $\phi_{2} = 0$ とすると、
+${\bf e}_{2} = (\sin\theta_{2}, 0, \cos\theta_{2})$,  
+</p>
+
+#### References
 
 <p>
 1. Attard1989_J.Chem.Phys.vol91.3072  
