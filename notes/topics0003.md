@@ -46,13 +46,13 @@ $$
    \psi\_{n{\bf k}'}({\bf r} + {\bf R}) \\\\
 &= \sum_{\bf R} e^{i({\bf k}'-{\bf k})\cdot{\bf R}}
    \int_{V} d{\bf r} ~\psi^{\ast}\_{m{\bf k}}({\bf r}) \psi\_{n{\bf k}'}({\bf r}) \\\\
-&= N \delta_{{\bf kk'}}\delta\_{mn} = \frac{(2\pi)^{3}}{V} \delta({\bf k}-{\bf k}') \delta\_{mn} 
+&= N \delta_{{\bf kk'}}\delta\_{mn} = \frac{(2\pi)^{3}}{V} 
+   \delta({\bf k}-{\bf k}') \delta\_{mn} \tag{4}
 \end{align}
 $$
 
 <p>
-When deriving Eq.~\ref{eq:braket_norm}, the following property 
-of Bloch function is used.    
+When deriving Eq. (4), the following property of Bloch function is used.    
 </p>
 
 $$
