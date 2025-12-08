@@ -85,6 +85,23 @@ h(r\_{3},r\_{2},x\_{32})
 \end{align}
 $$
 
+<p>
+<span style="color:blue">
+Legendre多項式の加法定理  
+</span>  
+</p>
+
+$$
+\color{blue}{
+\begin{align}
+P\_{j}(x\_{32})
+&= P\_{j}(x\_{2})P\_{j}(x\_{3}) + 2 \sum^{j}\_{m=-j}
+\end{align}
+}
+$$
+
+
+
 ---
 
 #### References
