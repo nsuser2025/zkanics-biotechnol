@@ -42,6 +42,17 @@ t(r\_{1},r\_{2},x\_{2})
 \end{align}
 $$
 
+<p>
+Legendre多項式展開  
+</p>
+
+$$
+\begin{align}
+f(x) &= \sum^{\infty}\_{n=0} \hat f\_{n} P\_{n}(x) \tag{4} \\\\
+\hat f\_{n} &= \frac{2n+1}{2} \int^{1}\_{-1} dx ~f(x)P_{n}(x) \tag{5}
+\end{align}
+$$
+
 ---
 
 #### References
