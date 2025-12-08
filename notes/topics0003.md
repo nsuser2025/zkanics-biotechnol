@@ -5,7 +5,7 @@ Bloch function is expressed as follows
 </p>
 
 \begin{eqnarray}
-\psi_{n{\bf k}}({\bf r}) &= e^{i{\bf k}\cdot{\bf r}}u_{n{\bf k}}({\bf r}) \label{eq:test}
+\psi_{n{\bf k}}({\bf r}) &= e^{i{\bf k}\cdot{\bf r}}u_{n{\bf k}}({\bf r}) \tag{1}
 \end{eqnarray}
 
 <p>
@@ -13,11 +13,10 @@ where $u_{n{\bf k}}$ has the periodicity of Hamiltonian.
 Bloch functions are normalized to one unit cell    
 </p>
 
-$$
-\begin{align}
-\int_{V} d{\bf r}\hspace{0.5mm} \psi^{*}\_{m{\bf k}}({\bf r}) \psi\_{n{\bf k}}({\bf r}) &= \delta\_{mn} \tag{2}
-\end{align}
-$$
+\begin{eqnarray}
+\int_{V} d{\bf r} ~\psi^{*}\_{m{\bf k}}({\bf r}) \psi\_{n{\bf k}}({\bf r}) 
+&= \delta\_{mn} \tag{2}
+\end{eqnarray}
 
 <p>
 where $V$ is the real-space primitive cell volume.
