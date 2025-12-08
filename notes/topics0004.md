@@ -17,7 +17,7 @@ $$
 #### IOZのLegendre多項式展開
 
 <p>
-$\theta_{1} = 0$, $\phi_{1} = 0$, $\phi_{2} = 0$ のときは $\cdots$
+$\theta_{1} = 0$, $\phi_{1} = 0$, $\phi_{2} = 0$ のときは
 </p>
 
 $$
@@ -30,9 +30,16 @@ $$
 $$
 
 <p>
-$x \equiv \cos\theta$ とすると $\cdots$
+$x \equiv \cos\theta$ とすると
 </p>
 
+$$
+\begin{align}
+t(r\_{1},r\_{2},x\_{2})
+&= \int^{\infty}_{0} dr\_{3} r^{2}\_{3} \rho(r\_{3})
+\int^{2\pi}_{0}  
+\end{align}
+$$
 
 ---
 
