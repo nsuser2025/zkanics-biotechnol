@@ -4,19 +4,23 @@
 Bloch function is expressed as follows
 </p>
 
-\begin{eqnarray}
+$$
+\begin{align}
 \psi_{n{\bf k}}({\bf r}) &= e^{i{\bf k}\cdot{\bf r}}u_{n{\bf k}}({\bf r}) \tag{1}
-\end{eqnarray}
+\end{align}
+$$
 
 <p>
 where $u_{n{\bf k}}$ has the periodicity of Hamiltonian.
 Bloch functions are normalized to one unit cell    
 </p>
 
-\begin{eqnarray}
+$$
+\begin{align}
 \int_{V} d{\bf r} ~\psi^{*}\_{m{\bf k}}({\bf r}) \psi\_{n{\bf k}}({\bf r}) 
 &= \delta\_{mn} \tag{2}
-\end{eqnarray}
+\end{align}
+$$
 
 <p>
 where $V$ is the real-space primitive cell volume.
@@ -25,10 +29,12 @@ the volume of the supercell, $V_{\rm all}$, is $V_{\rm all}=NV$.
 Bra-ket notation in this paper is related to Bloch functions as follows,     
 </p>
 
-\begin{eqnarray}
+$$
+\begin{align}
 \ket{\psi_{n{\bf k}}} 
 &= \int d{\bf r} ~\psi_{n{\bf k}}({\bf r}) \ket{\bf r} \tag{3} 
-\end{eqnarray}
+\end{align}
+$$
 
 <p>
 This notation is different from one in Ref.(PhysRevB.56.12847).    
