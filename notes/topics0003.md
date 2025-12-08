@@ -151,8 +151,8 @@ Bloch functions, (Eq. (3) of Marzari2012),
 $$
 \begin{align}
 \ket{{\bf R}n} 
-&= \frac{V}{(2\pi)^{3}}\int_{\rm BZ} e^{-i{\bf k}\cdot{\bf R}} \ket{\psi_{{\bf k}n}} \\\\
-&= \frac{1}{N} {\sum_{\bf k}}' e^{-i{\bf k}\cdot{\bf R}} \ket{\psi_{n{\bf k}}}
+&= \frac{V}{(2\pi)^{3}}\int_{\rm BZ} e^{-i{\bf k}\cdot{\bf R}} \ket{\psi_{{\bf k}n}} 
+= \frac{1}{N} {\sum_{\bf k}}' e^{-i{\bf k}\cdot{\bf R}} \ket{\psi_{n{\bf k}}}
 \end{align}
 $$
 
