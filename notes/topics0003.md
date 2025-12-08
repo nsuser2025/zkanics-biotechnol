@@ -195,8 +195,10 @@ $$
 $$
 
 <p>
+<span style="color:red">
 where $\hat {\bf r}$ is position operator 
 (Eq.(23) of Marzari2012).   
+</span>
 </p>
 
 
