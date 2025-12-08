@@ -95,9 +95,10 @@ $$
 \begin{align}
 \frac{1}{\Delta k_{x} \Delta k_{y} \Delta k_{z}}
 \sum_{\bf k} \delta_{{\bf kk}'} \Delta k_{x} \Delta k_{y} \Delta k_{z} 
-&=& \sum_{\bf k} \frac{V_{\rm all}}{(2\pi)^{3}} \delta_{{\bf kk}'} \Delta {\bf k} \nonumber \\
+&= \sum_{\bf k} \frac{V_{\rm all}}{(2\pi)^{3}} \delta_{{\bf kk}'} \Delta {\bf k} \\\\
 \frac{V_{\rm all}}{(2\pi)^{3}} \delta_{{\bf kk}'} 
-= \frac{NV}{(2\pi)^{3}} \delta_{{\bf kk}'} &\rightarrow& \delta({\bf k}-{\bf k}')  \nonumber \\
+= \frac{NV}{(2\pi)^{3}} \delta_{{\bf kk}'} 
+&\rightarrow \delta({\bf k}-{\bf k}')  \\\\
 N \delta_{{\bf kk}'} &\rightarrow& \frac{(2\pi)^{3}}{V} \delta({\bf k}-{\bf k}')
 \end{align}
 $$
@@ -130,7 +131,7 @@ $$
 $$
 
 <p>
-We, thus, employ the bra-ket notation of Eq.~\ref{eq:braket_ryo}
+We, thus, employ the bra-ket notation of Eq. XXX   
 for the formulation of Wannier functions.    
 </p>
 
