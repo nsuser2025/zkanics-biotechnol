@@ -4,11 +4,9 @@
 Bloch function is expressed as follows
 </p>
 
-$$
-\begin{align}
+\begin{eqnarray}
 \psi_{n{\bf k}}({\bf r}) &= e^{i{\bf k}\cdot{\bf r}}u_{n{\bf k}}({\bf r}) \tag{1}
-\end{align}
-$$
+\end{eqnarray}
 
 <p>
 where $u_{n{\bf k}}$ has the periodicity of Hamiltonian.
