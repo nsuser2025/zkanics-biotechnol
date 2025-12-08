@@ -12,9 +12,10 @@ h(r\_{1},r\_{2},\theta\_{12})
 \end{align}
 $$
 
-<p>
-Reference
-</p>    
+---
+
+#### Reference
+
 <p>
 1. Attard1989_J.Chem.Phys.vol91.3072  
 </p>
