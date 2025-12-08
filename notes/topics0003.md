@@ -57,7 +57,7 @@ When deriving Eq. (4), the following property of Bloch function is used.
 
 $$
 \begin{align}
-\psi_{n{\bf k}}({\bf r}+{\bf R}) &= e^{i{\bf k}\cdot{\bf R}} \psi_{n{\bf k}}({\bf r}) \tag{4}
+\psi_{n{\bf k}}({\bf r}+{\bf R}) &= e^{i{\bf k}\cdot{\bf R}} \psi_{n{\bf k}}({\bf r}) \tag{5}
 \end{align}
 $$
 
@@ -65,11 +65,11 @@ $$
 Kronecker delta formula is expressed as,    
 </p>
 
-\begin{eqnarray}
-\frac{1}{N} \sum_{\bf R} e^{i({\bf k}'-{\bf k})\cdot{\bf R}} 
-&=& \delta_{{\bf kk}'} 
-\tag{5}
-\end{eqnarray}
+$$
+\begin{align}
+\frac{1}{N} \sum_{\bf R} e^{i({\bf k}'-{\bf k})\cdot{\bf R}} &= \delta\_{{\bf kk}'} \tag{6}
+\end{align}
+$$
 
 <p>
 Kronecker delta is switched to Dirac delta function using the following correspondence,    
