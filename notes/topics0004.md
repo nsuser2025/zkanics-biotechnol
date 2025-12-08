@@ -174,6 +174,20 @@ $x_{1} \rightarrow -1$, $x_{2} \rightarrow 1$, $N \rightarrow n$, $\cos\theta \r
 </span>
 </p>
 
+<p>
+<span style="color:blue">
+※ Legendre多項式の再帰関係
+</span>
+</p>
+
+$$
+\color{blue}{
+\begin{align}
+&P\_{0}(x) = 1, P\_{1}(x) = x, \\\\
+&P\_{n}(x) = \frac{2n-1}{n}xP\_{n-1}(x) - \frac{n-1}{n}P\_{n-2}(x) \tag{16}
+\end{align}
+}
+$$
 
 ---
 
