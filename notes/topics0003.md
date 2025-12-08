@@ -161,10 +161,13 @@ where the integral is carried over the Brillouin zone (BZ).
 Normalization of the Wannier functions is checked as,     
 </p>
 
-\begin{eqnarray}
+$$
+\begin{align}
 \braket{{\bf R}m|{\bf R}'n} 
-&=& \int d{\bf r} \hspace{0.5mm} \braket{{\bf R}m|{\bf r}}
-\braket{{\bf r}|{\bf R}'n} \nonumber \\
+&= \int d{\bf r} ~\braket{{\bf R}m|{\bf r}} \braket{{\bf r}|{\bf R}'n}
+\end{align}
+
+\begin{align}
 &=& \biggl(\frac{1}{N}\biggr)^{2} 
 {\sum_{{\bf kk}'}}' e^{-i{\bf k}\cdot {\bf R}}
 e^{i{\bf k}'\cdot{\bf R}'} \int d{\bf r}\hspace{0.5mm}
@@ -176,7 +179,8 @@ N\delta_{mn}\delta_{{\bf kk}'} \nonumber \\
 e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}\cdot{\bf R}'}
 \delta_{mn} = \delta_{mn}\delta_{{\bf RR}'}
 \label{eq:wannier_function_norm}
-\end{eqnarray}
+\end{align}
+$$
 
 %The following formula derived by Blount, 
 %called Blount identity, 
