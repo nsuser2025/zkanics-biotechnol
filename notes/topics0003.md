@@ -87,7 +87,7 @@ Kronecker delta is switched to Dirac delta function using the following correspo
 
 $$
 \begin{align}
-\sum_{\bf k} \delta_{{\bf kk}'} = 1 &\rightarrow& \int d{\bf k} \delta({\bf k}-{\bf k}') = 1 
+\sum_{\bf k} \delta_{{\bf kk}'} = 1 \rightarrow \int d{\bf k} \delta({\bf k}-{\bf k}') = 1 
 \end{align}
 $$
 
