@@ -34,27 +34,20 @@ Bra-ket notation in this paper is related to Bloch functions as follows,
 This notation is different from one in Ref.(PhysRevB.56.12847).    
 </p>
 
-$$
-\begin{align}
+\begin{eqnarray}
 \braket{\psi_{m{\bf k}}|\psi_{n{\bf k}'}}
-&= \int d{\bf r} \int d{\bf r}' \hspace{0.5mm} \psi^{*}_{m{\bf k}}({\bf r}) \psi_{n{\bf k}'}({\bf r}') 
+&= \int d{\bf r} \int d{\bf r}' ~\psi^{*}_{m{\bf k}}({\bf r}) \psi_{n{\bf k}'}({\bf r}') 
     \braket{{\bf r}|{\bf r}'}  \\\\
-&= \int d{\bf r} \int d{\bf r}' \hspace{0.5mm} \psi^{*}_{m{\bf k}}({\bf r})
-    \psi_{n{\bf k}'}({\bf r}') 
-    \delta({\bf r}-{\bf r}') \\\\
-&= \int d{\bf r} \hspace{0.5mm} 
-    \psi^{*}_{m{\bf k}}({\bf r})
-    \psi_{n{\bf k}'}({\bf r}) \nonumber \\
-&=& \sum_{\bf R} \int_{V} d{\bf r} \hspace{0.5mm}
-    \psi^{*}_{m{\bf k}}({\bf r}+{\bf R})
-    \psi_{n{\bf k}'}({\bf r} + {\bf R}) \nonumber \\
-&=& \sum_{\bf R} e^{i({\bf k}'-{\bf k})\cdot{\bf R}}
-    \int_{V} d{\bf r} \psi^{*}_{m{\bf k}}({\bf r})
-    \psi_{n{\bf k}'}({\bf r}) \nonumber \\
-&=& N \delta_{{\bf kk'}}\delta_{mn} \nonumber \\
-&=& \frac{(2\pi)^{3}}{V} \delta({\bf k}-{\bf k}')\delta_{mn} 
-\end{align}
-$$
+&= \int d{\bf r} \int d{\bf r}' ~\psi^{*}_{m{\bf k}}({\bf r})
+   \psi_{n{\bf k}'}({\bf r}') \delta({\bf r}-{\bf r}') \\\\
+&= \int d{\bf r} ~\psi^{*}_{m{\bf k}}({\bf r}) \psi_{n{\bf k}'}({\bf r}) \\\\
+&= \sum_{\bf R} \int_{V} d{\bf r} ~\psi^{*}_{m{\bf k}}({\bf r}+{\bf R})
+   \psi_{n{\bf k}'}({\bf r} + {\bf R}) \\\\
+&= \sum_{\bf R} e^{i({\bf k}'-{\bf k})\cdot{\bf R}}
+   \int_{V} d{\bf r} \psi^{*}_{m{\bf k}}({\bf r}) \psi_{n{\bf k}'}({\bf r}) \\\\
+&= N \delta_{{\bf kk'}}\delta_{mn} \\\\
+&= \frac{(2\pi)^{3}}{V} \delta({\bf k}-{\bf k}')\delta_{mn} 
+\end{eqnarray}
 
 <p>
 When deriving Eq.~\ref{eq:braket_norm}, the following property 
