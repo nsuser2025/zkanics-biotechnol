@@ -201,7 +201,6 @@ where $\hat {\bf r}$ is position operator
 </span>
 </p>
 
-
 ---
 
 #### Blount Identity
