@@ -131,6 +131,21 @@ $P^{m}_{j}$: Legendre陪多項式（Associated Legendre polynomial）
 
 ---
 
+#### 数値解法
+
+<p>
+Gauss-Legendre積分を用いたLegendre多項式展開  
+</p>
+
+$$
+\begin{align}
+\hat f\_{n} &= \frac{2n+1}{2} \sum^{N}\_{i=1} \omega\_{i} f\_{i} ~P\_{n}(x\_{i}) \tag{11} \\\\
+f\_{i} &= \sum^{N-1}\_{n=0} \hat f\_{n} P\_{n}(x\_{i}) \tag{12}
+\end{align}
+$$
+
+---
+
 #### References
 
 <p>
