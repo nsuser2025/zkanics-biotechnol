@@ -164,19 +164,18 @@ Normalization of the Wannier functions is checked as,
 $$
 \begin{align}
 \braket{{\bf R}m|{\bf R}'n} 
-&= \int d{\bf r} ~\braket{{\bf R}m|{\bf r}} \braket{{\bf r}|{\bf R}'n}
-= \biggl(\frac{1}{N}\biggr)^{2} {\sum_{{\bf kk}'}}' e^{-i{\bf k}\cdot {\bf R}}
-e^{i{\bf k}'\cdot{\bf R}'} \int d{\bf r} ~\braket{\psi_{m{\bf k}}|{\bf r}}\braket{{\bf r}|\psi_{m{\bf k}'}} \\\\
+&= \int d{\bf r} ~\braket{{\bf R}m|{\bf r}} \braket{{\bf r}|{\bf R}'n} \\\\
+&= \biggl(\frac{1}{N}\biggr)^{2} {\sum_{{\bf kk}'}}' e^{-i{\bf k}\cdot {\bf R}}
+   e^{i{\bf k}'\cdot{\bf R}'} \int d{\bf r} ~\braket{\psi_{m{\bf k}}|{\bf r}}\braket{{\bf r}|\psi_{m{\bf k}'}} \\\\
 &= \biggl(\frac{1}{N}\biggr)^{2} {\sum_{{\bf kk}'}}'
-e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}'\cdot{\bf R}'} N\delta\_{mn}\delta\_{{\bf kk}'}
+   e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}'\cdot{\bf R}'} N\delta\_{mn}\delta\_{{\bf kk}'} \\\\
+&= \frac{1}{N} {\sum_{{\bf k}}}' e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}\cdot{\bf R}'} \delta\_{mn} 
+ = \delta\_{mn}\delta\_{{\bf RR}'}
 \end{align}
 $$
 
 $$
 \begin{align}
-&=& \biggl(\frac{1}{N}\biggr)^{2} {\sum_{{\bf kk}'}}'
-e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}'\cdot{\bf R}'}
-N\delta_{mn}\delta_{{\bf kk}'} \nonumber \\
 &=& \frac{1}{N} {\sum_{{\bf k}}}'
 e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}\cdot{\bf R}'}
 \delta_{mn} = \delta_{mn}\delta_{{\bf RR}'}
