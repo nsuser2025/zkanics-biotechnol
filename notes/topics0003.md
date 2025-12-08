@@ -41,14 +41,13 @@ $$
    \psi\_{n{\bf k}'}({\bf r}') \braket{{\bf r}|{\bf r}'} \\\\
 &= \int d{\bf r} \int d{\bf r}' \psi^{\ast}\_{m{\bf k}}({\bf r})
    \psi\_{n{\bf k}'}({\bf r}') \delta({\bf r}-{\bf r}') \\\\
-&= \int d{\bf r} ~\psi^{\ast}\_{m{\bf k}}({\bf r}) \psi\_{n{\bf k}'}({\bf r})
+&= \int d{\bf r} ~\psi^{\ast}\_{m{\bf k}}({\bf r}) \psi\_{n{\bf k}'}({\bf r}) \\\\
+&= \sum_{\bf R} \int_{V} d{\bf r} ~\psi^{\ast}\_{m{\bf k}}({\bf r}+{\bf R})
+   \psi\_{n{\bf k}'}({\bf r} + {\bf R})
 \end{align}
 $$
 
 \begin{eqnarray}
-&= \int d{\bf r} \int d{\bf r}' ~\psi^{*}_{m{\bf k}}({\bf r})
-   \psi_{n{\bf k}'}({\bf r}') \delta({\bf r}-{\bf r}') \\\\
-&= \int d{\bf r} ~\psi^{*}_{m{\bf k}}({\bf r}) \psi_{n{\bf k}'}({\bf r}) \\\\
 &= \sum_{\bf R} \int_{V} d{\bf r} ~\psi^{*}_{m{\bf k}}({\bf r}+{\bf R})
    \psi_{n{\bf k}'}({\bf r} + {\bf R}) \\\\
 &= \sum_{\bf R} e^{i({\bf k}'-{\bf k})\cdot{\bf R}}
