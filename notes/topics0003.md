@@ -170,7 +170,7 @@ $$
 &= \biggl(\frac{1}{N}\biggr)^{2} {\sum_{{\bf kk}'}}'
    e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}'\cdot{\bf R}'} N\delta\_{mn}\delta\_{{\bf kk}'} \\\\
 &= \frac{1}{N} {\sum_{{\bf k}}}' e^{-i{\bf k}\cdot {\bf R}}e^{i{\bf k}\cdot{\bf R}'} \delta\_{mn} 
- = \delta\_{mn}\delta\_{{\bf RR}'}
+ = \delta\_{mn}\delta\_{{\bf RR}'} \tag{8}
 \end{align}
 $$
 
@@ -209,7 +209,7 @@ where $\hat {\bf r}$ is position operator
 $$
 \begin{align}
 \hat{\bf r} \ket{{\bf 0}m} = {\bf r} \ket{{\bf 0}m}
-= \frac{V}{(2\pi)^{3}} \int_{\rm BZ} d{\bf k}' ~{\bf r}\ket{\psi_{{\bf k}'m}} 
+= \frac{V}{(2\pi)^{3}} \int_{\rm BZ} d{\bf k}' ~{\bf r}\ket{\psi_{{\bf k}'m}} \tag{9}
 \end{align}
 $$
 
@@ -221,23 +221,23 @@ $$
 \begin{align}
 \nabla_{{\bf k}'} \ket{\psi_{{\bf k}'m}}
 = \nabla_{{\bf k}'} ~(\exp(i{\bf k}'\cdot{\bf r}) \ket{u_{{\bf k}'m}})
-= i{\bf r}\ket{\psi_{{\bf k}'m}}+\exp(i{\bf k}'\cdot{\bf r}) \nabla_{{\bf k}'} \ket{u_{{\bf k}'m}}
+= i{\bf r}\ket{\psi_{{\bf k}'m}}+\exp(i{\bf k}'\cdot{\bf r}) \nabla_{{\bf k}'} \ket{u_{{\bf k}'m}} \tag{10}
 \end{align}
 $$
 
 <p>
-Solvint Eq. \ref{eq:Deriv_Step2} yields    
+Solvint Eq. (10) yields    
 </p>
 
 $$
 \begin{align}
 {\bf r}\ket{\psi_{{\bf k}'m}} = i\exp(i{\bf k}'\cdot{\bf r})\nabla_{{\bf k}'}
-\ket{u_{{\bf k}'m}}-i\nabla_{{\bf k}'}\ket{\psi_{{\bf k}'m}}.
+\ket{u_{{\bf k}'m}}-i\nabla_{{\bf k}'}\ket{\psi_{{\bf k}'m}} \tag{11}
 \end{align}
 $$
 
 <p>
-And Eq. \ref{eq:Deriv_Step1} becomes    
+And Eq. (9) becomes    
 </p>
 
 $$
