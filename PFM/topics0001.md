@@ -28,7 +28,7 @@ $$
 $$
 \begin{align}
 \frac{\partial \phi}{\partial t}
-&= \nabla\cdot(\nabla \mu)
+&= \nabla\cdot(M\nabla \mu)
 \end{align}
 $$
 
