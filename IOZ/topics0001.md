@@ -93,8 +93,8 @@ $$
 $$
 \color{blue}{
 \begin{align}
-f(x) &= \sum^{\infty}\_{n=0} \hat f\_{n} P\_{n}(x) \tag{4} \\\\
-\hat f\_{n} &= \frac{2n+1}{2} \int^{1}\_{-1} dx ~f(x)P_{n}(x) \tag{6}
+f(x) &= \sum^{\infty}\_{n=0} \hat f\_{n} P\_{n}(x) \tag{6} \\\\
+\hat f\_{n} &= \frac{2n+1}{2} \int^{1}\_{-1} dx ~f(x)P_{n}(x) \tag{7}
 \end{align}
 }
 $$
@@ -108,7 +108,7 @@ $$
 $$
 \color{blue}{
 \begin{align}
-\int^{1}\_{-1} dx ~P\_{n}(x) P\_{m}(x) = \frac{2}{2n+1} \delta\_{mn} \tag{7}
+\int^{1}\_{-1} dx ~P\_{n}(x) P\_{m}(x) = \frac{2}{2n+1} \delta\_{mn} \tag{8}
 \end{align}
 }
 $$
@@ -124,7 +124,7 @@ $$
 \begin{align}
 P\_{j}(x\_{32})
 &= P\_{j}(x\_{2})P\_{j}(x\_{3}) + 2 \sum^{j}\_{m=1}
-\frac{(j-m)!}{(j+m)!} P^{m}\_{j}(x\_{2})P^{m}\_{j}(x\_{3}) \cos [m(\phi\_{2}-\phi\_{3})] \tag{8}
+\frac{(j-m)!}{(j+m)!} P^{m}\_{j}(x\_{2})P^{m}\_{j}(x\_{3}) \cos [m(\phi\_{2}-\phi\_{3})] \tag{9}
 \end{align}
 }
 $$
