@@ -6,17 +6,17 @@ Gauss-Legendre積分を用いたLegendre多項式展開
 
 $$
 \begin{align}
-\hat f\_{n} &= \frac{2n+1}{2} \sum^{N}\_{i=1} \omega\_{i} f\_{i} ~P\_{n}(x\_{i}) \tag{11} \\\\
-f\_{i} &= \sum^{N-1}\_{n=0} \hat f\_{n} P\_{n}(x\_{i}) \tag{12}
+\hat f\_{n} &= \frac{2n+1}{2} \sum^{N}\_{i=1} \omega\_{i} f\_{i} ~P\_{n}(x\_{i}) \tag{1} \\\\
+f\_{i} &= \sum^{N-1}\_{n=0} \hat f\_{n} P\_{n}(x\_{i}) \tag{2}
 \end{align}
 $$
 
 $$
 \begin{align}
 &\sum^{N}\_{i=1} \omega_{i} P\_{n}(x\_{i})P\_{m}(x\_{i}) 
-= \frac{2}{2n+1} \delta\_{nm} \tag{13} \\\\ \\\\
+= \frac{2}{2n+1} \delta\_{nm} \tag{3} \\\\ \\\\
 &\sum^{N-1}\_{n=0} \frac{2n+1}{2} P\_{n}(x\_{i}) P\_{n}(x\_{j}) 
-= \omega^{-1}\_{i} \delta\_{ij} \tag{14}
+= \omega^{-1}\_{i} \delta\_{ij} \tag{4}
 \end{align}
 $$
 
@@ -30,7 +30,7 @@ $$
 \color{blue}{
 \begin{align}
 \int^{x\_{2}}\_{x\_{1}} f(x) dx
-&= \sum^{N}\_{j=1} \omega\_{j} f(x\_{j}) \tag{15}
+&= \sum^{N}\_{j=1} \omega\_{j} f(x\_{j}) \tag{5}
 \end{align}
 }
 $$
@@ -51,7 +51,7 @@ $$
 \color{blue}{
 \begin{align}
 &P\_{0}(x) = 1, P\_{1}(x) = x, \\\\ \\\\
-&P\_{n}(x) = \frac{2n-1}{n}xP\_{n-1}(x) - \frac{n-1}{n}P\_{n-2}(x) \tag{16}
+&P\_{n}(x) = \frac{2n-1}{n}xP\_{n-1}(x) - \frac{n-1}{n}P\_{n-2}(x) \tag{6}
 \end{align}
 }
 $$
