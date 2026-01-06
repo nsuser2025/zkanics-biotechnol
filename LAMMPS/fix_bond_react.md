@@ -11,13 +11,13 @@
 </p>
 
 <p>
-stabilization yes（デフォルトではno）キーワードを使用すると,
+stabilization yes（デフォルトではno）を指定すると
 fix bond/reactは2つの原子グループを作成する.
 </p>
 
 <p>
 <strong>第1グループ</strong> $\cdots$ 反応に関与しているすべての原子 </br>
-インプットに明記されていなくてもnve/limitが自動で適用される.</br>
+インプットに明記されていなくてもnve/limitが自動で適用される.</br></br>
 <strong>第2グループ</strong> $\cdots$ 反応に関与していないすべての原子 </br>
 stabilizationキーワードで指定したgroup-IDに_REACTを
 付加したものとして作成され, サーモスタットで制御される.  
