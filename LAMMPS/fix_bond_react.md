@@ -1,8 +1,11 @@
+#### fix bond/reactの動作イメージ
+
 <p>
-<strong>
-fix bond/reactのワークフロー
-</strong>  
+1. スキャン $\cdots$ スキャン対象として指定した原子対の距離rがRmin$\geq$ r $leq$ Rmax
+にあるかをチェック.
+2. 検証 $\cdots$ 
 </p>
+#### fix bond/reactのワークフロー
 <p>  
 1. シミュレーションする反応を特定する.</br>
 2. 反応が起こる前の反応部位の分子テンプレートを作成する.</br>
@@ -13,11 +16,8 @@ fix bond/reactのワークフロー
 
 ---
 
-<p>
-<strong>
-stabilizationキーワード  
-</strong>  
-</p>
+#### stabilizationキーワード  
+
 <p>
 stabilization yes/no group-ID xmax </br>
 stabilization yes（デフォルトではno）を指定するとfix bond/react
