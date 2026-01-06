@@ -53,7 +53,7 @@ fix bond/reactでreact A & react Bと記載する.
 react react-ID react-group-ID Nevery Rmin Rmax \ </br>
 template-ID(pre-reacted) template-ID(post-reacted) map_file individual_keyword values &</br>
 react react-ID react-group-ID Nevery Rmin Rmax \ </br>
-template-ID(pre-reacted) template-ID(post-reacted) map_file individual_keyword values &</br>
+template-ID(pre-reacted) template-ID(post-reacted) map_file individual_keyword values </br>
 </p>
 <p>
 Rmin $\cdots$ Rminより近い距離にある原子同士は反応候補から除外する.</br>
