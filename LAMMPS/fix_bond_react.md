@@ -24,8 +24,8 @@ stabilization yes（デフォルトではno）を指定するとfix bond/react
 </p>
 
 <p>
-<strong>第1グループ</strong> $\cdots$ 反応に関与しているすべての原子 </br>
-インプットに明記されていなくてもnve/limitが自動で適用される.</br></br>
-<strong>第2グループ</strong> $\cdots$ 反応に関与していないすべての原子 </br>
+第1グループ: 反応に関与しているすべての原子 </br>
+インプットに明記されていなくてもnve/limitが自動で適用される.</br>
+第2グループ: 反応に関与していないすべての原子 </br>
 stabilizationキーワードで指定したgroup-IDに_REACTを付加したものとして定義される.  
 </p>
