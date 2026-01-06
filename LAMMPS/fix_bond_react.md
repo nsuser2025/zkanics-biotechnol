@@ -1,9 +1,10 @@
 #### fix bond/reactの動作イメージ
 
 <p>
-1. スキャン $\cdots$ スキャン対象として指定した原子対の距離rがRmin$\geq$ r $leq$ Rmax 
-にあるかをチェック.</br>
-2. 検証 $\cdots$ 
+1. 指定原子対間の距離rが Rmin $\le$ r $le$ Rmax にあるかをチェックする.</br>
+2. それぞれの周囲の結合ネットワークがテンプレートと一致しているかを検証する.</br>
+3. 一致していたらpost templateの構造に置き換える.</br>
+4. 結合が生成した瞬間の不自然な構造歪みをnve/limitで安定化させる（stabilization）.</br>
 </p>
 
 ---
