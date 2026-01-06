@@ -32,7 +32,13 @@ stabilization yes（デフォルトではno）を指定するとfix bond/react
 xmaxはfix nve/limitで指定するxmaxと同じ.
 </br></br>
 第2グループ: 反応に関与していないすべての原子 </br>
-stabilizationキーワードで指定したgroup-IDに_REACTを付加したものとして定義される.  
+group-IDに_REACTを付加したものとして定義される.  
+</p>
+
+<p>
+<span style="color: red;">
+fix ID group-ID nve/limit xmax </br>  
+</span> 
 </p>
 
 ---
