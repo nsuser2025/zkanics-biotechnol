@@ -1,3 +1,4 @@
+#### fix bond/react
 <p>
 1. シミュレーションする反応を特定する.</br>
 2. 反応が起こる前の反応部位の分子テンプレートを作成する.</br>
@@ -6,10 +7,12 @@
 5. シミュレーションボックスを分子で埋め, fix bond/reactを使ってシミュレーションを実行する.</br>  
 </p>
 
-#### stabilizationキーワード
+#### stabilization
 
 <p>
-<strong>stabilization yes/no group-ID xmax</strong>
+<strong><span style="color: red;">
+stabilization yes/no group-ID xmax
+</span></strong>
 </p>
 
 <p>
@@ -21,6 +24,5 @@ fix bond/reactは2つの原子グループを作成する.
 <strong>第1グループ</strong> $\cdots$ 反応に関与しているすべての原子 </br>
 インプットに明記されていなくてもnve/limitが自動で適用される.</br></br>
 <strong>第2グループ</strong> $\cdots$ 反応に関与していないすべての原子 </br>
-stabilizationキーワードで指定したgroup-IDに_REACTを
-付加したものとして定義される.  
+stabilizationキーワードで指定したgroup-IDに_REACTを付加したものとして定義される.  
 </p>
