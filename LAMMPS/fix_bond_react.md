@@ -6,9 +6,9 @@
 5. シミュレーションボックスを分子で埋め, fix bond/reactを使ってシミュレーションを実行する.</br>  
 </p>
 
----
-
-#### stabilization yes/no group-ID xmox
+<p>
+<strong>stabilization yes/no group-ID xmax</strong>
+</p>
 
 <p>
 stabilization yes（デフォルトではno）キーワードを使用すると,
