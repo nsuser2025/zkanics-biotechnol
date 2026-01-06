@@ -56,7 +56,6 @@ react react-ID react-group-ID Nevery Rmin Rmax \ </br>
 template-ID(pre-reacted) template-ID(post-reacted) map_file individual_keyword values &</br>
 </p>
 <p>
-Rmin $\cdots$ 反応を起こす2つの原子は最低でもRmin以上は離れていなければならない.
-これより近すぎる原子は反応候補から除外する.</br>
-Rmax $\cdots$ 原子同士の距離がRmaxより小さくなければ反応はおこらない.  
+Rmin $\cdots$ Rminより近い距離にある原子同士は反応候補から除外する.</br>
+Rmax $\cdots$ Rmaxより遠い距離にある原子同士は反応候補から除外する.
 </p>
