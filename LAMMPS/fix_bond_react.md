@@ -21,9 +21,7 @@ stabilizationキーワード
 </p>
 
 <p>
-<span style="color: red;">
-フォーマット: stabilization yes/no group-ID xmax
-</span></br>
+stabilization yes/no group-ID xmax </br>
 stabilization yes（デフォルトではno）を指定するとfix bond/react
 は2つの原子グループを作成する.
 </p>
