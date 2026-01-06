@@ -6,6 +6,8 @@
 5. シミュレーションボックスを分子で埋め, fix bond/reactを使ってシミュレーションを実行する.</br>  
 </p>
 
+#### stabilizationキーワード
+
 <p>
 <strong>stabilization yes/no group-ID xmax</strong>
 </p>
@@ -20,5 +22,5 @@ fix bond/reactは2つの原子グループを作成する.
 インプットに明記されていなくてもnve/limitが自動で適用される.</br></br>
 <strong>第2グループ</strong> $\cdots$ 反応に関与していないすべての原子 </br>
 stabilizationキーワードで指定したgroup-IDに_REACTを
-付加したものとして作成され, サーモスタットで制御される.  
+付加したものとして定義される.  
 </p>
