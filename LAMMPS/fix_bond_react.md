@@ -12,12 +12,9 @@
 <p>
 <span style="color: red;">
 フォーマット: stabilization yes/no group-ID xmax
-</span>
-</p>
-
-<p>
-stabilization yes（デフォルトではno）を指定すると
-fix bond/reactは2つの原子グループを作成する.
+</span></br>
+stabilization yes（デフォルトではno）を指定するとfix bond/react
+は2つの原子グループを作成する.
 </p>
 
 <p>
