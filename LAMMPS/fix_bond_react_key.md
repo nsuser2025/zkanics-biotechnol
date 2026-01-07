@@ -1,4 +1,4 @@
-#### stabilizationキーワード  
+#### stabilization キーワード  
 
 <p>
 stabilization yes/no group-ID xmax </br>
@@ -10,26 +10,23 @@ nve/limit が自動で適用される.xmax は fix nve/limit で指定する xma
 </p>
 <p>
 2. 反応に関与していない原子グループ </br>
-group-ID に _REACT を付加した group-ID として新規に定義される.  
+group-ID に _REACT を付加した新規 group-ID が定義される.  
 </p>
 <p>
 <span style="color: blue;">
 fix ID group-ID nve/limit xmax </br>
-group-IDに含まれる原子に対してNVEアンサンブルのMDを行う. </br>
-ただし, 1ステップで原子が移動できる最大距離はxmaxまで.
+group-ID に含まれる原子に対して NVE アンサンブルの MD を行う. </br>
+ただし, 1ステップで原子が移動できる最大距離は xmax まで.
 </span> 
 </p>
 
 ---
 
-<p>
-<strong>
-reactキーワード  
-</strong>  
-</p>
+#### react キーワード  
+
 <p>  
-LAMMPSインプットにfix bond/reactを指定するのは1回だけ.反応AとBを同時にシミュレーションするときは
-fix bond/reactでreact A & react Bと記載する.
+LAMMPS インプットに fix bond/react を指定するのは 1 度だけ. </br>
+反応 A と B を同時にシミュレーションするときは fix bond/react で react A & react B と記載する.
 </p>
 <p>
 react react-ID react-group-ID Nevery Rmin Rmax \ </br>
@@ -38,6 +35,6 @@ react react-ID react-group-ID Nevery Rmin Rmax \ </br>
 template-ID(pre-reacted) template-ID(post-reacted) map_file individual_keyword values </br>
 </p>
 <p>
-Rmin $\cdots$ Rminより近い距離にある原子同士は反応候補から除外する.</br>
-Rmax $\cdots$ Rmaxより遠い距離にある原子同士は反応候補から除外する.
+Rmin $\cdots$ Rmin より近い距離にある原子同士は反応候補から除外する. </br>
+Rmax $\cdots$ Rmax より遠い距離にある原子同士は反応候補から除外 する.
 </p>
