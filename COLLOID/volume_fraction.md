@@ -9,6 +9,7 @@ $$
 <p>
 ここで $\omega_{\rm solid}$ は wt% を少数で表していることに注意.
 
+<span style="color: blue;">
 <p>
 導出
 </p>
@@ -18,3 +19,4 @@ $$
 \phi &=  
 \end{align}
 $$
+</span>
