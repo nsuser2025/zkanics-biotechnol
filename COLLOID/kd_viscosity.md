@@ -12,6 +12,15 @@ $\phi_{\rm max}$ $\cdots$ 最大充填体積分率（固体粒子を隙間なく
 $\rightarrow$ 懸濁液の粘度は $\phi$ と $\phi_{\rm max}$ が決める.
 </p>
 
+<span style="color: blue;">
+<p>
+$\phi_{\rm max} = 0.74$（最密充填, 理論限界）</br>
+$\phi_{\rm max} = 0.64$（単文散, 剛体球）</br>
+$\phi_{\rm max} = 0.55-0.64$（高分散）</br>
+$\phi_{\rm max} = 0.45-0.55$（相互作用が強く, 有効半径が大きい）
+</p>
+</span>
+
 ---
 
 #### 吸着層の厚さと粘度の関係
