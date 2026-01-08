@@ -47,7 +47,7 @@ $$
 \begin{align}
 \frac{V_{\rm eff}}{V_{\rm particle}}
 &= \frac{(R + \delta)^{3}}{R^{3}} = \biggl( 1 + \frac{\delta}{R} \biggr)^{3} 
-= (1 + \delta)^{3} \tag{6}  
+= (1 + \Delta)^{3} \tag{6}  
 \end{align}
 $$
 <p>
