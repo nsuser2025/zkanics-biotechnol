@@ -6,6 +6,8 @@ $$
             {\omega_{\rm solid}\rho_{\rm liquid}+(1-\omega_{\rm solid})\rho_{\rm solid}}
 \end{align}
 $$
+<p>
+ここで $\omega_{\rm solid}$ は wt% を少数で表していることに注意.
 
 <p>
 導出
