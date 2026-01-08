@@ -2,6 +2,6 @@
 
 $$
 \begin{align}
-\phi_{\rm eff} &= \frac{(1+\frac{\delta}{R})^{3}}{(1-\phi) + (1 + \frac{\delta}{R})^{3}} \tag{1}
+\phi_{\rm eff} &= \frac{(1+\Delta)^{3}}{(1-\phi) + (1 + \Delta)^{3}} \tag{1}
 \end{align}
 $$
