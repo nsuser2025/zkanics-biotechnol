@@ -16,7 +16,7 @@ $\omega_{\rm solid}$ は wt% を少数で表していることに注意.
 </p>
 $$
 \begin{align}
-\phi &= \frac{V_{\rm solid}}{V_{\rm solid} + V_{\rm liquid}} \tag{1} \\
+\phi &= \frac{V_{\rm solid}}{V_{\rm solid} + V_{\rm liquid}} \tag{1} \\ \\
 \omega_{\rm solid} &= \frac{m_{\rm solid}}{m_{\rm solid} + m_{\rm liquid}} \tag{2}        
 \end{align}
 $$
