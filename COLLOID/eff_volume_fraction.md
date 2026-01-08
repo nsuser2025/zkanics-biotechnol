@@ -2,7 +2,7 @@
 
 $$
 \begin{align}
-\phi_{\rm eff} &= \frac{(1+\Delta)^{3}}{(1-\phi) + (1 + \Delta)^{3}} \tag{1}
+\phi_{\rm eff} &= \frac{(1+\Delta)^{3} \phi }{(1-\phi) + (1 + \Delta)^{3} \phi} \tag{1}
 \end{align}
 $$
 
@@ -45,7 +45,7 @@ $$
 $V_{\rm eff}/V_{\rm particle}$ は次式で表される.
 $$
 \begin{align}
-V_{\rm eff}/V_{\rm particle}
+\frac{V_{\rm eff}}{V_{\rm particle}}
 &= \frac{(R + \delta)^{3}}{R^{3}} = \biggl( 1 + \frac{\delta}{R} \biggr)^{3} \tag{6}  
 \end{align}
 $$
