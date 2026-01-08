@@ -27,7 +27,7 @@ $V_{\rm liquid}$ は吸着層を持たない固体粒子からなるスラリー
 </p>
 $$
 \begin{align}
-\phi &= \frac{NV_{\rm particle}}{NV_{\rm particle} + V_{\rm liquid}} \\ \\
-V_{\rm liquid} &= \frac{1 - \phi}{\phi} NV_{\rm particle} \tag{4}
+\phi &= \frac{NV_{\rm particle}}{NV_{\rm particle} + V_{\rm liquid}} \rightarrow
+V_{\rm liquid} = \biggl( \frac{1 - \phi}{\phi} \biggr) NV_{\rm particle} \tag{4}
 \end{align}
 $$
