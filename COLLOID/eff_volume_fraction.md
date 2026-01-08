@@ -39,7 +39,7 @@ $$
 \begin{align}
 \phi_{\rm eff}
 &= \frac{NV_{\rm eff}}{NV_{\rm eff} + \biggl( \frac{1 - \phi}{\phi} \biggr) NV_{\rm particle}}
-= \frac{1}{1 + \biggl( \frac{1 - \phi}{\phi} \biggr) (V_{\rm particle}/V_{\rm eff})}  
+= \frac{(V_{\rm eff}/V_{\rm particle})\phi}{(V_{\rm eff}/V_{\rm particle})\phi + (1 - \phi})}  
 \end{align}
 $$
 </span>
