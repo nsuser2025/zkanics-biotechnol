@@ -22,6 +22,7 @@ note_paths = {
     "volume_fraction": "COLLOID/volume_fraction.md",
     "eff_volume_fraction": "COLLOID/eff_volume_fraction.md",
     "kd_viscosity": "COLLOID/kd_viscosity.md",
+    "gel_intro": "COLLOID/gel_intro.md",
 }
 
 for key, path in note_paths.items():
