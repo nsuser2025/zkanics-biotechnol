@@ -19,6 +19,7 @@ note_paths = {
     "reaxff_install": "LAMMPS/reaxff_install.md",
     "fix_bond_react": "LAMMPS/fix_bond_react.md",
     "fix_bond_react_key": "LAMMPS/fix_bond_react_key.md",
+    "volume_fraction": "COLLOID/volume_fraction.md",
 }
 
 for key, path in note_paths.items():
