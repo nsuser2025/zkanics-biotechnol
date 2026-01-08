@@ -49,6 +49,6 @@ $V_{\rm solid}$ $\cdots$ スラリー中の全粒子の体積 </br></br>
 
 $$
 \begin{align}
-\phi &= \frac{0.7 \times 1.15}{(0.7 \times 1.15) + (0.3 \times 2.2} \approx 0.55
+\phi &= \frac{0.7 \times 1.15}{(0.7 \times 1.15) + (0.3 \times 2.2)} \approx 0.55
 \end{align}
 $$
