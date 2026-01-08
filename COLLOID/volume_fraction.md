@@ -2,7 +2,7 @@
 
 $$
 \begin{align}
-\phi = \frac{\frac{\omega_{\rm solid}}{\rho_{\rm solid}}}
-            {\frac{\omega_{\rm solid}}{\rho_{\rm solid}}+\frac{(1-\omega_{\rm solid})}{\rho_{\rm liquid}}}
+\phi = \frac{\omega_{\rm solid}\rho_{\rm liquid}}
+            {\omega_{\rm solid}\rho_{\rm liquid}+(1-\omega_{\rm solid})\rho_{\rm solid}}
 \end{align}
 $$
