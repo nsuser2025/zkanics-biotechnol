@@ -36,8 +36,10 @@ $$
 (4) を (3) に代入する.  
 </p>
 $$
+\begin{align}
 \phi_{\rm eff}
 &= \frac{NV_{\rm eff}}{NV_{\rm eff} + \biggl( \frac{1 - \phi}{\phi} \biggr) NV_{\rm particle}} \\ \\
 &= \frac{1}{1 + \biggl( \frac{1 - \phi}{\phi} \biggr) \frac{V_{\rm particle}}{V_{\rm eff}}}  
+\end{align}
 $$
 </span>
