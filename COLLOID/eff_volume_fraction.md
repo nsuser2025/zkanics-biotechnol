@@ -10,6 +10,7 @@ $$
 $\Delta \equiv \delta / R$（$R$ $\cdots$ 固体粒子の半径, $\delta$ $\cdots$ 吸着層の厚み） 
 </p>
 
+<span style="color: blue;">
 <p>
 導出  
 </p>
@@ -31,3 +32,12 @@ $$
 V_{\rm liquid} = \biggl( \frac{1 - \phi}{\phi} \biggr) NV_{\rm particle} \tag{4}
 \end{align}
 $$
+<p>
+(4) を (3) に代入する.  
+</p>
+$$
+\phi_{\rm eff}
+&= \frac{NV_{\rm eff}}{NV_{\rm eff} + \biggl( \frac{1 - \phi}{\phi} \biggr) NV_{\rm particle}} \\ \\
+&= \frac{1}{1 + \biggl( \frac{1 - \phi}{\phi} \biggr) \frac{V_{\rm particle}}{V_{\rm eff}}}  
+$$
+</span>
