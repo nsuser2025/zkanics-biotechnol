@@ -8,7 +8,7 @@ E &= \frac{1}{2\pi V} \sum_{m\neq 0, |m| \le L}
 $$
 $$
 \begin{align}
-S(m) &= \sum_{I} q_{I}\exp(-2 \pi i m R_{I}) + \sum_{n} q_{n} \exp(-2 \pi i m W_{n})
+S(m) &= \sum_{I} q_{I}\exp(-2 \pi i m R_{I}) + \sum_{n} q_{n} \exp(-2 \pi i m W_{n}) \tag{2}
 \end{align}
 $$
 
