@@ -41,7 +41,10 @@ $N=1300 \cdots \phi=0.64$
 
 $$
 \begin{align}
-u(r) &= \frac{a_{ij}}{(1-e^{-b_{ij}})} \tag{2}
+u(r) &= \frac{a_{ij}}{(1-e^{-b_{ij}})} 
+\biggl[
+\frac{r_{\rm c}}{b_{ij}} \exp(-b_{ij}r/r_{\rm c})
++ \exp(-b_{ij})r \biggr] \tag{3}
 \end{align}
 $$
 <p>
@@ -50,7 +53,7 @@ Ishizuka2023_J.Mol.Liq.vol384.122246の方法を用いることで発散を回�
 </p>
 $$
 \begin{align}
-u'(r) &= u(r) - u(r_{\rm c}) \tag{3}
+u'(r) &= u(r) - u(r_{\rm c}) \tag{4}
 \end{align}
 $$
 <p>
