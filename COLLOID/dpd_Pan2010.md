@@ -42,13 +42,12 @@ $$
 \begin{align}
 u(r) &= \frac{a_{ij}}{(1-e^{-b_{ij}})}\biggl[
 \biggl(\frac{r_{\rm c}}{b_{ij}}\biggr) \exp (-b_{ij}r/r_{\rm c})
-+ \exp
 \biggr]
 \tag{3}
 \end{align}
 $$
 <p>
- (-b_{ij}) r
++ \exp (-b_{ij}) r
 (2) のままでは不連続点が発生してOZ計算は発散してしまう.
 Ishizuka2023_J.Mol.Liq.vol384.122246の方法を用いることで発散を回避できる:
 </p>
