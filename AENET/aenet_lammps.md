@@ -1,3 +1,5 @@
+#### インストール
+
 <p>
 cp -r ./aenet-lammps/USER-AENET ./lammps-stable_2Aug2023/src/ </br>
 cp -r ./aenet-lammps/aenet ./lammps-stable_2Aug2023/lib/ </br>
@@ -15,3 +17,13 @@ Makefile.gfortran_serial は AENET インストールに従って編集する. <
 LAMMPS の version は 2Aug2023 を用いる. 
 </p>
 
+---
+
+#### チュートリアル
+
+<p>
+Ref. Shimamura2021_Chem.Phys.Lett.vol778.138748 </br>
+Supp. Info. に AIMD のトレーニングデータが公開されている.
+AENET公式のチュートリアルには応力テンソルの学習が含まれていないが,
+この文献で公開されている wsf ファイルには pressure 行の下に応力テンソルが記載されている.
+</p>
