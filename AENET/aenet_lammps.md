@@ -1,6 +1,4 @@
 <p>
-mkdir AENET </br>
-cd AENET </br>
 tar xvzf stable_2Aug2023.tar.gz </br>
 cp -r ./aenet-lammps/USER-AENET ./lammps-stable_2Aug2023/src/ </br>
 cp -r ./aenet-lammps/aenet ./lammps-stable_2Aug2023/lib/ </br>
