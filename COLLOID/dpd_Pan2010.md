@@ -61,6 +61,6 @@ $$
 </p>
 $$
 \begin{align}
-\rho &= \frac{3\phi}{(4\pi a^{3})} \tag{5}
+\rho &= \frac{N}{V_{\rm total}} = \frac{3\phi}{(4\pi a^{3})} \tag{5}
 \end{align}
 $$
