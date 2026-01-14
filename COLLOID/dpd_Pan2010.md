@@ -42,9 +42,8 @@ $N=1300 \cdots \phi=0.64$
 $$
 \begin{align}
 u(r) &= \frac{a_{ij}}{(1-e^{-b_{ij}})} 
-\biggl(
 \frac{r_{\rm c}}{b_{ij}} \exp(-b_{ij}r/r_{\rm c})
-+ \exp(-b_{ij})r \biggr) \tag{3}
++ \exp(-b_{ij})r  \tag{3}
 \end{align}
 $$
 <p>
