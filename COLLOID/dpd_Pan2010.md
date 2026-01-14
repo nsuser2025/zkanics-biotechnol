@@ -4,7 +4,7 @@
 Ref. Pan2010_Langmuir.vol26.133  
 </p>
 <p>
-コロイド―コロイド, コロイド―溶媒間の conservative force:  
+コロイド―コロイド, コロイド―溶媒間の保存力:  
 </p>
 $$
 \begin{align}
