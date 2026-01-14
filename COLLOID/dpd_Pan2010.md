@@ -38,7 +38,6 @@ $N=1300 \cdots \phi=0.64$
 ---
 
 #### Ornstein-Zernike 理論による解析
-
 $$
 \begin{align}
 u(r) &= \frac{a_{ij}}{(1-e^{-b_{ij}})} 
