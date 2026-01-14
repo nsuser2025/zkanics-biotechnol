@@ -18,6 +18,7 @@ note_paths = {
     "pfm_topics0001": "PFM/topics0001.md",
     "mlip_install": "MLIP/install.md",
     "deepmd_dplr": "DEEPMD/dplr.md",
+    "aenet_install": "AENET/aenet_install.md",
     "reaxff_install": "LAMMPS/reaxff_install.md",
     "fix_bond_react": "LAMMPS/fix_bond_react.md",
     "fix_bond_react_key": "LAMMPS/fix_bond_react_key.md",
