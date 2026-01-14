@@ -23,7 +23,12 @@ use mpi_f08 では stauts の宣言は後者を用いる.
 
 #### インストール
 <p>
-cd src </br>
+cd aenet-master </br>  
+cd lib </br>
+make </br>
+cd ../src </br>
 make -f makefile/Makefile.gfortran_mpi </br>
-make -f makefile/Makefile.gfortran_mpi lib
+make -f makefile/Makefile.gfortran_mpi lib </br> </br>
+aenet-master/bin に generate.x（single core）, train.x（MPI）,
+predict.x（MPI）が生成される.
 </p>
