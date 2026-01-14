@@ -43,7 +43,7 @@ $$
 u(r) &= \frac{a_{ij}}{(1-e^{-b_{ij}})}\biggl[
 \biggl(\frac{r_{\rm c}}{b_{ij}}\biggr) \exp (-b_{ij}r/r_{\rm c})
 + \exp (-b_{ij}) r
-\biggr] \tag{3}
+\biggr]
 \end{align}
 $$
 <p>
