@@ -1,9 +1,10 @@
 #### Pan2010 によるコロイド懸濁液のDPDシミュレーション
+
 <p>
 Ref. Pan2010_Langmuir.vol26.133  
 </p>
 <p>
-colloid-colloid, colloid-solvent の conservative force:  
+コロイド―コロイド, コロイド―溶媒間の conservative force:  
 </p>
 $$
 \begin{align}
@@ -13,7 +14,7 @@ $$
 \end{align}
 $$
 <p>
-soft coreポテンシャルでは粒子間のすり抜けが許されるが, コロイドではすり抜けは起きない.
+ソフトコアポテンシャルでは粒子間のすり抜けが許されるが, コロイドではすり抜けは起きない.
 (1)を用いればコロイドと溶媒のすり抜けは起こらない（Ref. の Fig. 2）.
 </p>
 <p>
@@ -37,6 +38,7 @@ $N=1300 \cdots \phi=0.64$
 ---
 
 #### Ornstein-Zernike 理論による解析
+
 $$
 \begin{align}
 u(r) &= \frac{a_{ij}}{(1-e^{-b_{ij}})} \tag{2}
