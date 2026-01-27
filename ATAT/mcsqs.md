@@ -22,7 +22,7 @@ mcsqs は, 系の複雑さやカットオフの設定次第で無限に走り続
 探索過程で得られた SQS のうち, 目的関数の値が負に最も大きい構造が保存される.
 sqs2poscar で POSCAR ファイルに変換して DFT 計算や MLFF MD を行う.
 <p>
-bestcorr.out</br></br>
+<u>bestcorr.out</u> </br></br>
 Column 1: n 体相関 </br>
 Column 2: 近接原子間の距離 </br>
 Column 3: SQS の相関関数 </br>
