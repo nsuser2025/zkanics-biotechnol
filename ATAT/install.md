@@ -4,3 +4,8 @@
 makefile の BINDIR=HOME/ATAT/3.50/bin にする.</br>
 make & make install
 </p>
+<p>
+<u>POSCAR への変換</u></br>
+install: c++ ./sqs2poscar.cpp -o ./sqs2poscar </br> 
+sqs2poscar 
+</p>
