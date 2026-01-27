@@ -24,8 +24,8 @@ sqs2poscar で POSCAR ファイルに変換して DFT 計算や MLFF MD を行�
 Column 1: n 体相関 </br>
 Column 2: 近接原子間の距離（意図した近接シェルが含まれているかを確認する） </br>
 Column 3: SQS の相関関数 </br>
-Column 4: 理想ランダム固溶体の相関関数 </br>
+Column 4: 理想溶体の相関関数 </br>
 Column 5: Col. 3 と Col. 4 の差（ゼロに近いほど再現性が高い） </br>
-Objective_function: 負に大きいほど, 数値上は理想ランダム固溶体に近いことを示している.
-理想ランダム固溶体の相関関数を完全に再現する構造が得られたとき, Perfect_match と表示される.  
+Objective_function: 負に大きいほど, 数値上は理想溶体に近いことを示している.
+理想溶体の相関関数を完全に再現する構造が得られたとき, Perfect_match と表示される.  
 </p>
