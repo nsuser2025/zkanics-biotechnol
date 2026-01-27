@@ -5,14 +5,11 @@ makefile の BINDIR=HOME/ATAT/3.50/bin にする.</br>
 make & make install
 </p>
 
-
-#### rndstr.in
 <p>
-corrdump のインプットファイル.
-corrdump コマンドは格子ファイル rndstr.in を読み込み,
-対称性とクラスターを計算する. 非常に大きな周期セルを定義しない限り,
-通常このコマンドはすぐに終了する（大きなセルの場合は clusters.out が巨大になり, 
-数時間以上かかることもある).
+<u>rndstr.in</u>  
+corrdump は rndstr.in を読み込み, 対称性とクラスターを計算する.
+非常に大きな周期セルを定義しない限り, 通常はすぐに終了する.
+大きなセルの場合は clusters.out が巨大になり, 数時間以上かかることもある.
 </p>
   
 <p>
