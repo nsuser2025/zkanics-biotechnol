@@ -15,9 +15,9 @@ REFS/Zunger1990_Phys.Rev.Lett.vol65.353
 </p>
 <span style="color: blue;">
 <p>
-<u>理想二元溶体の相関関数</u></br>
-二元ランダム固溶体 A$_{1-x}$B$_{x}$ の 第 $m$ 近接の $k$
-体のクラスター相関関数 $\langle \Pi_{k,m} \rangle$ は</br> 
+<u>二元理想溶体の相関関数</u></br>
+二元理想溶体 A$_{1-x}$B$_{x}$ の 第 $m$ 近接の $k$
+体クラスター相関関数 $\langle \Pi_{k,m} \rangle$ は</br> 
 </p>
 $$
 \begin{align}
@@ -28,7 +28,7 @@ $$
 = (2x-1)^{k} \tag{1}
 \end{align}
 $$
-ここで, ランダム固溶体の $\langle S_{i} \rangle$ は
+ここで, 理想溶体の $\langle S_{i} \rangle$ は
 $$
 \begin{align}
 \langle S_{i} \rangle &= S^{\rm A}_{i} P({\rm A}) + S^{\rm B}_{i} P({\rm B})
