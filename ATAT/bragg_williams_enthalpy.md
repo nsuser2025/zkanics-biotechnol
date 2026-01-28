@@ -34,7 +34,12 @@ E &= \biggl(\frac{1}{2}zN_{\rm A} - \frac{1}{2}N_{\rm AB}\biggr)e_{\rm AA}
 &\equiv E_{\rm m}^{\rm A}Nx_{\rm A} + E_{\rm m}^{\rm B}Nx_{\rm B} + \Omega_{AB}Nx_{\rm A}x_{\rm B} \tag{3}
 \end{align}
 $$
+<span style="color: blue;">
 <p>
-<u>（2）の導出</u>  
-</p>
+<u>（2）の導出</u>
+B 元素 1 ヶに近接する A 元素の平均数は $zx_{A}$　なので, B 元素 $N_{\rm B}$ ヶと結合を形成する
+A 元素の平均数 $N_{\rm AB}$ は $N_{\rm AB} = N_{\rm B}zx_{\rm A} = zNx_{\rm A}x_{\rm B}$ となる.
+このように原子対の平均数でエンタルピーを表すので平均場近似とよばれる.
+</p>  
+</span>
 
