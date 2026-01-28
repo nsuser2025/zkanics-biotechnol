@@ -32,6 +32,7 @@ note_paths = {
     "kapsel_install": "KAPSEL/kapsel_install.md",
     "regular_solution": "ATAT/regular_solution.md",
     "bragg_williams_enthalpy": "ATAT/bragg_williams_enthalpy.md",
+    "ideal_mixture_entropy": "ATAT/ideal_mixture_entropy.md",
     "sqs": "ATAT/sqs.md",
     "mcsqs": "ATAT/mcsqs.md",
     "sqs_quality": "ATAT/sqs_quality.md",
