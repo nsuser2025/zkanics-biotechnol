@@ -15,8 +15,10 @@ $G \approx E-TS$ と近似できる.
 <u>正則溶体近似にもとづく Gibbs 自由エネルギー</u>  
 </p>
 $$
+\begin{align}
 G &= x_{\rm A} {}^{0}G_{\rm A} + x_{\rm B} {}^{0}G_{\rm B} 
   + \Omega_{\rm AB} x_{\rm A}x_{\rm B} + RT (x_{\rm A}\ln x_{\rm A}
   + x_{\rm B} \ln x_{\rm B}) \tag{1}    
+\end{align}
 $$
 </span>
