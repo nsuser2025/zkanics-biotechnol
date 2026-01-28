@@ -30,13 +30,14 @@ E &= \biggl(\frac{1}{2}zN_{\rm A} - \frac{1}{2}N_{\rm AB}\biggr)e_{\rm AA}
 &= \frac{1}{2}z \textcolor{green}{N_{\rm A}} e_{\rm AA} + \frac{1}{2}z \textcolor{green}{N_{\rm B}} e_{\rm BB}
 + \textcolor{green}{N_{\rm AB}} \biggl\{ e_{\rm AB} - \frac{e_{\rm AA} + e_{\rm BB}}{2}\biggr\} \\
 &= \frac{1}{2}z \textcolor{red}{N x_{\rm A}} e_{\rm AA}  + \frac{1}{2} z \textcolor{red}{N x_{\rm B}} e_{\rm BB} 
-+\textcolor{red}{z N x_{\rm A}x_{\rm B}} \biggl\{ e_{\rm AB} - \frac{e_{\rm AA} + e_{\rm BB}}{2}\biggr\} \\
-&\equiv E_{\rm m}^{\rm A}Nx_{\rm A} + E_{\rm m}^{\rm B}Nx_{\rm B} + \Omega_{AB}Nx_{\rm A}x_{\rm B} \tag{3}
++\textcolor{red}{z N x_{\rm A}x_{\rm B}} \biggl\{ e_{\rm AB} - \frac{e_{\rm AA} + e_{\rm BB}}{2}\biggr\} \tag{3}
 \end{align}
 $$
 $$
 \begin{align}
-E_{\rm m} &= E_{\rm m}^{\rm A}x_{\rm A} + E_{\rm m}^{\rm B}x_{\rm B} + \Omega_{AB}x_{\rm A}x_{\rm B} \tag{4}
+E_{\rm m} &= N_{\rm Avo} \hat E = N_{\rm Avo} \biggl\{
+\frac{1}{2} z e_{\rm AA} x_{\rm A} + \frac{1}{2} z e_{\rm BB} x_{\rm B} + \hat \Omega_{AB}x_{\rm A}x_{\rm B} \biggr\}
+&\equiv E_{\rm m}^{\rm A}x_{\rm A} + E_{\rm m}^{\rm B}x_{\rm B} + \Omega_{AB}x_{\rm A}x_{\rm B} \tag{4}
 \end{align}
 $$
 
