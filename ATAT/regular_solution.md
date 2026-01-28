@@ -5,13 +5,14 @@ Gibbs 自由エネルギー $G=H-TS$ はエンタルピー $H=E+pV$ より $G=E+
 <p>
 <u>混合エンタルピー</u>  
 </p>
+<p>
 $E=N_{\rm AA}e_{\rm AA} + N_{\rm BB}e_{\rm BB} + N_{\rm AB}e_{\rm AB}$
 $N_{\alpha-\beta}$: $\alpha$ - $\beta$ 対の数
-$e_{\alpha-\beta}$: $\alpha$ - $\beta$ 間の結合エネルギー  
+$e_{\alpha-\beta}$: $\alpha$ - $\beta$ 間の結合エネルギー   
 </p>
 
 $$
 \begin{align}
-N_{\rm AA} &= \frac{1}{2} zN_{A} - \frac
+N_{\rm AA} &= \frac{1}{2} zN_{A} - \frac{1}{2}N_{\rm AB} \tag{1}
 \end{align}
 $$
