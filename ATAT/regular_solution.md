@@ -12,7 +12,7 @@ $G \approx E-TS$ と近似できる.
 
 <span style="color: blue;">
 <p>
-<u>正則溶体近似にもとづく Gibbs 自由エネルギー</u>  
+<u>二元正則溶体の Gibbs 自由エネルギー</u>  
 </p>
 $$
 \begin{align}
@@ -21,4 +21,8 @@ G_{\rm m} &\equiv \frac{G}{N} = x_{\rm A} {}^{0}G_{\rm m}^{\rm A} + x_{\rm B} {}
   + x_{\rm B} \ln x_{\rm B}) \tag{1}
 \end{align}
 $$
+<p>
+${}^{0}G_{\rm m}^{\rm A}$: 元素 A（純物質）のモルギブス自由エネルギー </br>
+$x_{\rm A} \equiv N_{\rm A} / (N_{\rm A} + N_{\rm B})$: 元素 A のモル分率
+</p>
 </span>
