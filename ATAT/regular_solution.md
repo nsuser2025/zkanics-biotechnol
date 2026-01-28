@@ -10,7 +10,7 @@
 $G \approx E-TS$ と近似できる.
 </p>
 <p>
-<u>混合エンタルピー</u>  
+<u>Bragg-Williams 近似にもとづく混合エンタルピー</u>  
 </p>
 <p>
 $E=N_{\rm AA}e_{\rm AA} + N_{\rm BB}e_{\rm BB} + N_{\rm AB}e_{\rm AB}$
