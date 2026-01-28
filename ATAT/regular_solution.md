@@ -20,14 +20,15 @@ $G \approx E-TS$ と近似できる.
 </p>
 $$
 \begin{align}
-G_{\rm m} &\equiv N_{\rm Abo}\frac{G}{N} = N_{\rm Abo} \hat G \\ \\
+G_{\rm m} &\equiv N_{\rm Avo}\frac{G}{N} = N_{\rm Abo} \hat G \\ \\
 &= x_{\rm A} {}^{0}G_{\rm m}^{\rm A} + x_{\rm B} {}^{0}G_{\rm m}^{\rm B} 
    + \Omega_{\rm AB} x_{\rm A}x_{\rm B} + RT (x_{\rm A}\ln x_{\rm A}
    + x_{\rm B} \ln x_{\rm B}) \tag{1}
 \end{align}
 $$
 <p>
-$N_{\rm Abo}$ $\cdots$ アボガドロ定数, $N = N_{\rm A} + N_{\rm B}$ $\cdots$ 全粒子数 </br>
+$\hat G$ $\cdots$ 1 原子あたりの Gibbs 自由エネルギー </br>
+$N_{\rm Avo}$ $\cdots$ アボガドロ定数, $N = N_{\rm A} + N_{\rm B}$ $\cdots$ 全粒子数 </br>
 $x_{\rm A} \equiv N_{\rm A} / N$ $\cdots$ 元素 A のモル分率 </br>
 ${}^{0}G_{\rm m}^{\rm A}$ $\cdots$ 元素 A（純物質）のモルギブス自由エネルギー </br>
 $\Omega_{\rm AB} = z (e_{\rm AB} - (e_{\rm AA} + e_{\rm BB})/2)$ $\cdots$ 相互作用パラメータ</br>
